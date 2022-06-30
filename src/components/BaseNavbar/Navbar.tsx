@@ -19,7 +19,7 @@ import { Container } from 'decentraland-ui/dist/components/Container/Container'
 import { Header } from 'decentraland-ui/dist/components/Header/Header'
 import { Logo } from 'decentraland-ui/dist/components/Logo/Logo'
 import { Mobile, NotMobile } from 'decentraland-ui/dist/components/Media'
-import './Navbar.css'
+import 'decentraland-ui/dist/components/Navbar/Navbar.css'
 
 export type NavbaComponentProps = {
   mana?: number | null
