@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
-import { isConnected } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
+import { isConnected } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { DEFAULT_PAGE_SIZE } from 'lib/api/pagination'
 import { RootState } from 'modules/common/types'
 import { getCollectionId } from 'modules/location/selectors'

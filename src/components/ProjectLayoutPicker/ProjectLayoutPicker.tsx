@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 
 import { MAX_AREA } from 'modules/template/utils'
 import { ProjectLayout } from 'modules/project/types'

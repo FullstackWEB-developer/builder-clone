@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Link } from 'react-router-dom'
 import { DropTarget } from 'react-dnd'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import CollectionImage from 'components/CollectionImage'
 import { locations } from 'routing/locations'
 import { SIDEBAR_ITEM_SOURCE } from '../../Items/SidebarItem/SidebarItem.dnd'

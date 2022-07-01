@@ -1,5 +1,5 @@
 import { ChainId, WearableCategory } from '@dcl/schemas'
-import { getChainIdByNetwork } from 'decentraland-dapps/dist/lib/eth'
+import { getChainIdByNetwork } from 'dcl-dapps/dist/lib/eth'
 import { ContractName, getContract } from 'decentraland-transactions'
 import { RootState } from 'modules/common/types'
 import { getIsRaritiesWithOracleEnabled } from 'modules/features/selectors'
@@ -17,7 +17,7 @@ import {
 import { Collection } from './types'
 import { UNSYNCED_COLLECTION_ERROR_PREFIX } from './utils'
 
-jest.mock('decentraland-dapps/dist/lib/eth')
+jest.mock('dcl-dapps/dist/lib/eth')
 jest.mock('modules/features/selectors')
 
 const mockGetChainIdByNetwork = getChainIdByNetwork as jest.Mock

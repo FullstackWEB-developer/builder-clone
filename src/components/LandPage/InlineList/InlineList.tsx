@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Props } from './InlineList.types'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { T, t } from 'dcl-dapps/dist/modules/translation/utils'
 
 export default class InlineList extends React.PureComponent<Props> {
   render() {

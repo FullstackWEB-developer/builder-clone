@@ -1,6 +1,6 @@
 import { PayloadAction } from 'typesafe-actions'
 import { put } from 'redux-saga/effects'
-import { DataByKey } from 'decentraland-dapps/dist/lib/types'
+import { DataByKey } from 'dcl-dapps/dist/lib/types'
 import { Project } from 'modules/project/types'
 import { Scene } from 'modules/scene/types'
 

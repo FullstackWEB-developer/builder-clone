@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import { push } from 'connected-react-router'
-import { isConnecting } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { isConnecting } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { locations } from 'routing/locations'
 import { RootState } from 'modules/common/types'
 import { openModal } from 'modules/modal/actions'

@@ -3,7 +3,7 @@ import { pushCollectionCurationRequest, PUSH_COLLECTION_CURATION_REQUEST } from 
 import { OwnProps, MapDispatchProps, MapDispatch, MapStateProps } from './PushCollectionChangesModal.types'
 import PushCollectionChangesModal from './PushCollectionChangesModal'
 import { RootState } from 'modules/common/types'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
 import { getLoading } from 'modules/curations/collectionCuration/selectors'
 
 const mapState = (store: RootState): MapStateProps => ({

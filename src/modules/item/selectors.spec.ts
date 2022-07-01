@@ -1,6 +1,6 @@
 import { ChainId } from '@dcl/schemas'
 import { Entity } from 'dcl-catalyst-commons'
-import { getChainIdByNetwork } from 'decentraland-dapps/dist/lib/eth'
+import { getChainIdByNetwork } from 'dcl-dapps/dist/lib/eth'
 import { CollectionState } from 'modules/collection/reducer'
 import { Collection } from 'modules/collection/types'
 import { RootState } from 'modules/common/types'
@@ -27,7 +27,7 @@ import {
 } from './selectors'
 import { Item, ItemRarity, ItemType, SyncStatus } from './types'
 
-jest.mock('decentraland-dapps/dist/lib/eth')
+jest.mock('dcl-dapps/dist/lib/eth')
 const mockGetChainIdByNetwork = getChainIdByNetwork as jest.Mock
 
 const mockAddress = '0x6D7227d6F36FC997D53B4646132b3B55D751cc7c'

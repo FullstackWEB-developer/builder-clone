@@ -1,4 +1,4 @@
-import { STORAGE_LOAD } from 'decentraland-dapps/dist/modules/storage/actions'
+import { STORAGE_LOAD } from 'dcl-dapps/dist/modules/storage/actions'
 
 import {
   SAVE_PROJECT_REQUEST,

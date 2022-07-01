@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Row, Column, Narrow, Header, Section } from 'decentraland-ui'
+import { Row, Column, Narrow, Header, Section } from 'dcl-ui'
 import { Atlas } from 'components/Atlas'
 import Back from 'components/Back'
 import { locations } from 'routing/locations'

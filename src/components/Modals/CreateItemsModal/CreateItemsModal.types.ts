@@ -1,6 +1,6 @@
 import { Dispatch } from 'redux'
-import { openModal, OpenModalAction } from 'decentraland-dapps/dist/modules/modal/actions'
-import { ModalProps } from 'decentraland-dapps/dist/providers/ModalProvider/ModalProvider.types'
+import { openModal, OpenModalAction } from 'dcl-dapps/dist/modules/modal/actions'
+import { ModalProps } from 'dcl-dapps/dist/providers/ModalProvider/ModalProvider.types'
 import { CreateAndEditMultipleItemsModalMetadata } from '../CreateAndEditMultipleItemsModal/CreateAndEditMultipleItemsModal.types'
 import { CreateSingleItemModalMetadata } from '../CreateSingleItemModal/CreateSingleItemModal.types'
 

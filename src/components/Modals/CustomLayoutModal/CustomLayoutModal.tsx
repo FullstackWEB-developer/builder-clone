@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { Button, ModalNavigation, Field } from 'decentraland-ui'
-import Modal from 'decentraland-dapps/dist/containers/Modal'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Button, ModalNavigation, Field } from 'dcl-ui'
+import Modal from 'dcl-dapps/dist/containers/Modal'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 
 import ProjectLayoutPicker from 'components/ProjectLayoutPicker'
 import { fromLayout } from 'modules/template/utils'

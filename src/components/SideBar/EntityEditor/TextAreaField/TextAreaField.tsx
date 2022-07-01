@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { TextArea, TextAreaProps } from 'decentraland-ui'
+import { TextArea, TextAreaProps } from 'dcl-ui'
 import { Props, State } from './TextAreaField.types'
 
 import './TextAreaField.css'

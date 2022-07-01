@@ -1,6 +1,6 @@
 import { Dispatch } from 'redux'
-import { ModalProps } from 'decentraland-dapps/dist/providers/ModalProvider/ModalProvider.types'
-import { Profile } from 'decentraland-dapps/dist/modules/profile/types'
+import { ModalProps } from 'dcl-dapps/dist/providers/ModalProvider/ModalProvider.types'
+import { Profile } from 'dcl-dapps/dist/modules/profile/types'
 import { setCollectionCurationAssigneeRequest } from 'modules/curations/collectionCuration/actions'
 import { CollectionCuration } from 'modules/curations/collectionCuration/types'
 import { Collection } from 'modules/collection/types'

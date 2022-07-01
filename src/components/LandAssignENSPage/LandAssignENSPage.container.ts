@@ -1,6 +1,6 @@
 import { push, goBack } from 'connected-react-router'
 import { connect } from 'react-redux'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
 import { RootState } from 'modules/common/types'
 import {
   FETCH_ENS_REQUEST,

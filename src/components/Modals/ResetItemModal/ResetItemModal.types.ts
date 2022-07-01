@@ -1,4 +1,4 @@
-import { ModalProps } from 'decentraland-dapps/dist/providers/ModalProvider/ModalProvider.types'
+import { ModalProps } from 'dcl-dapps/dist/providers/ModalProvider/ModalProvider.types'
 import { ResetItemRequestAction } from 'modules/item/actions'
 import { Dispatch } from 'redux'
 

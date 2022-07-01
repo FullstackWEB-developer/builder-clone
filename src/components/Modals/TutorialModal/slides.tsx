@@ -1,4 +1,4 @@
-import { t, T } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t, T } from 'dcl-dapps/dist/modules/translation/utils'
 
 export const getSlides = () => [
   {

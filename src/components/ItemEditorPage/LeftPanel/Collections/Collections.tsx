@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Loader, Pagination, PaginationProps, Section } from 'decentraland-ui'
+import { Loader, Pagination, PaginationProps, Section } from 'dcl-ui'
 import { LEFT_PANEL_PAGE_SIZE } from 'components/ItemEditorPage/constants'
 import SidebarCollection from './SidebarCollection'
 import { Props, State } from './Collections.types'

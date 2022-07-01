@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Loader, Page, Responsive, Container } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Loader, Page, Responsive, Container } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 
 import Chip from 'components/Chip'
 import Footer from 'components/Footer'

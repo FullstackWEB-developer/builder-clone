@@ -1,6 +1,6 @@
 import { action } from 'typesafe-actions'
 import { ChainId } from '@dcl/schemas'
-import { buildTransactionPayload } from 'decentraland-dapps/dist/modules/transaction/utils'
+import { buildTransactionPayload } from 'dcl-dapps/dist/modules/transaction/utils'
 import { Land } from 'modules/land/types'
 import { Authorization, ENS, ENSError } from './types'
 

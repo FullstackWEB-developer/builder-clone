@@ -1,8 +1,8 @@
 import { connect } from 'react-redux'
-import { getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
-import { getData as getProfiles, getLoading as getProfilesLoading } from 'decentraland-dapps/dist/modules/profile/selectors'
-import { LOAD_PROFILE_REQUEST } from 'decentraland-dapps/dist/modules/profile/actions'
+import { getAddress } from 'dcl-dapps/dist/modules/wallet/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
+import { getData as getProfiles, getLoading as getProfilesLoading } from 'dcl-dapps/dist/modules/profile/selectors'
+import { LOAD_PROFILE_REQUEST } from 'dcl-dapps/dist/modules/profile/actions'
 import { RootState } from 'modules/common/types'
 import { getCommitteeMembers } from 'modules/committee/selectors'
 import {

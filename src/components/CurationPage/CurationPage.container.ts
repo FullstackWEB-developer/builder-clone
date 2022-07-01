@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
-import { getData as getWallet, isConnecting } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
+import { getData as getWallet, isConnecting } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { RootState } from 'modules/common/types'
 import { getPaginatedCollections, getLoading as getLoadingCollection, getPaginationData } from 'modules/collection/selectors'
 import { getCurationsByCollectionId, getLoading as getLoadingCuration } from 'modules/curations/collectionCuration/selectors'

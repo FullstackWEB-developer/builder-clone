@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import { RootState } from 'modules/common/types'
-import { getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getAddress } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { saveAssetPackRequest } from 'modules/assetPack/actions'
 import { getProgress, getError, isLoading } from 'modules/assetPack/selectors'
 import { getCurrentProject } from 'modules/project/selectors'

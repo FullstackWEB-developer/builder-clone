@@ -1,5 +1,5 @@
 import { createSelector } from 'reselect'
-import { isConnected, getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { isConnected, getAddress } from 'dcl-dapps/dist/modules/wallet/selectors'
 
 import { isEqual } from 'lib/address'
 import { RootState } from 'modules/common/types'

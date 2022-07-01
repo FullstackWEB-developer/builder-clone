@@ -1,7 +1,7 @@
 import React from 'react'
-import { ModalNavigation, Field, Button, Form } from 'decentraland-ui'
-import Modal from 'decentraland-dapps/dist/containers/Modal'
-import { t, T } from 'decentraland-dapps/dist/modules/translation/utils'
+import { ModalNavigation, Field, Button, Form } from 'dcl-ui'
+import Modal from 'dcl-dapps/dist/containers/Modal'
+import { t, T } from 'dcl-dapps/dist/modules/translation/utils'
 import { Props, State } from './ClaimNameFatFingerModal.types'
 import './ClaimNameFatFingerModal.css'
 

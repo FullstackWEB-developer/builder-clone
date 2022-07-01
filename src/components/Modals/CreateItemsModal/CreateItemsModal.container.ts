@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { openModal } from 'decentraland-dapps/dist/modules/modal/actions'
+import { openModal } from 'dcl-dapps/dist/modules/modal/actions'
 import { MapDispatchProps, MapDispatch } from './CreateItemsModal.types'
 import CreateItemsModal from './CreateItemsModal'
 

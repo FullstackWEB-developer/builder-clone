@@ -1,6 +1,6 @@
 import { Dispatch } from 'redux'
-import { Coord } from 'decentraland-ui'
-import { ModalProps } from 'decentraland-dapps/dist/providers/ModalProvider/ModalProvider.types'
+import { Coord } from 'dcl-ui'
+import { ModalProps } from 'dcl-dapps/dist/providers/ModalProvider/ModalProvider.types'
 import { Land, LandTile } from 'modules/land/types'
 import { createEstateRequest, editEstateRequest, CreateEstateRequestAction, EditEstateRequestAction } from 'modules/land/actions'
 

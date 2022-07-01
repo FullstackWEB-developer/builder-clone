@@ -1,6 +1,6 @@
 import { AxiosRequestConfig, AxiosError } from 'axios'
-import { BaseAPI, APIParam } from 'decentraland-dapps/dist/lib/api'
-import { Omit } from 'decentraland-dapps/dist/lib/types'
+import { BaseAPI, APIParam } from 'dcl-dapps/dist/lib/api'
+import { Omit } from 'dcl-dapps/dist/lib/types'
 import { config } from 'config'
 import { NO_CACHE_HEADERS } from 'lib/headers'
 import { runMigrations } from 'modules/migrations/utils'

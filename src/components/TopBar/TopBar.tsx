@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Header, Grid, Icon } from 'decentraland-ui'
-import { IntercomWidget } from 'decentraland-dapps/dist/components/Intercom/IntercomWidget'
+import { Header, Grid, Icon } from 'dcl-ui'
+import { IntercomWidget } from 'dcl-dapps/dist/components/Intercom/IntercomWidget'
 
 import DeploymentStatus from 'components/DeploymentStatus'
 import ShortcutTooltip from 'components/ShortcutTooltip'

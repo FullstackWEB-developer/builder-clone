@@ -1,8 +1,8 @@
 import * as React from 'react'
 import { Switch, Route, Redirect } from 'react-router-dom'
-import { Center, Page, Responsive } from 'decentraland-ui'
-import Intercom from 'decentraland-dapps/dist/components/Intercom'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Center, Page, Responsive } from 'dcl-ui'
+import Intercom from 'dcl-dapps/dist/components/Intercom'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 
 import { locations } from 'routing/locations'
 

@@ -1,5 +1,5 @@
 import { call, put, takeEvery, takeLatest } from 'redux-saga/effects'
-import { CONNECT_WALLET_SUCCESS } from 'decentraland-dapps/dist/modules/wallet/actions'
+import { CONNECT_WALLET_SUCCESS } from 'dcl-dapps/dist/modules/wallet/actions'
 import { BuilderAPI } from 'lib/api/builder'
 import {
   fetchCommitteeMembersRequest,

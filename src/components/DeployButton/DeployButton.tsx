@@ -1,7 +1,7 @@
 import * as React from 'react'
 
-import { Button, Popup } from 'decentraland-ui'
-import { t, T } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Button, Popup } from 'dcl-ui'
+import { t, T } from 'dcl-dapps/dist/modules/translation/utils'
 import { getExceededMetrics } from 'modules/scene/utils'
 import { DeploymentStatus } from 'modules/deployment/types'
 import { DeployModalView, DeployModalMetadata } from 'components/Modals/DeployModal/DeployModal.types'

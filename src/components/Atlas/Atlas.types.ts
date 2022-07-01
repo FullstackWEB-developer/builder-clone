@@ -1,7 +1,7 @@
 import { Dispatch } from 'redux'
 import { CallHistoryMethodAction } from 'connected-react-router'
 import { Tile } from 'react-tile-map/lib/src/lib/common'
-import { AtlasTile, AtlasProps } from 'decentraland-ui'
+import { AtlasTile, AtlasProps } from 'dcl-ui'
 import { LandTile } from 'modules/land/types'
 
 export type Props = Partial<AtlasProps> & {

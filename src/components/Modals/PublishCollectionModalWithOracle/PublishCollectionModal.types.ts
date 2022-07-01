@@ -1,6 +1,6 @@
 import { Dispatch } from 'redux'
-import { Wallet } from 'decentraland-dapps/dist/modules/wallet/types'
-import { ModalProps } from 'decentraland-dapps/dist/providers/ModalProvider/ModalProvider.types'
+import { Wallet } from 'dcl-dapps/dist/modules/wallet/types'
+import { ModalProps } from 'dcl-dapps/dist/providers/ModalProvider/ModalProvider.types'
 import { publishCollectionRequest, PublishCollectionRequestAction } from 'modules/collection/actions'
 import { Collection } from 'modules/collection/types'
 import { Item, Rarity } from 'modules/item/types'

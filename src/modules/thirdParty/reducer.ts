@@ -1,5 +1,5 @@
-import { FetchTransactionSuccessAction } from 'decentraland-dapps/dist/modules/transaction/actions'
-import { LoadingState, loadingReducer } from 'decentraland-dapps/dist/modules/loading/reducer'
+import { FetchTransactionSuccessAction } from 'dcl-dapps/dist/modules/transaction/actions'
+import { LoadingState, loadingReducer } from 'dcl-dapps/dist/modules/loading/reducer'
 import {
   FetchThirdPartiesRequestAction,
   FetchThirdPartiesSuccessAction,

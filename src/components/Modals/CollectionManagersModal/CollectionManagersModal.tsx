@@ -1,9 +1,9 @@
 import * as React from 'react'
-import { ModalNavigation, ModalActions } from 'decentraland-ui'
+import { ModalNavigation, ModalActions } from 'dcl-ui'
 import { Network } from '@dcl/schemas'
-import { NetworkButton } from 'decentraland-dapps/dist/containers'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import Modal from 'decentraland-dapps/dist/containers/Modal'
+import { NetworkButton } from 'dcl-dapps/dist/containers'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
+import Modal from 'dcl-dapps/dist/containers/Modal'
 
 import { isValid } from 'lib/address'
 import { Access } from 'modules/collection/types'

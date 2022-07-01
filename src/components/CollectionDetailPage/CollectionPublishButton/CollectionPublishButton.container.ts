@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
-import { getData as getAuthorizations } from 'decentraland-dapps/dist/modules/authorization/selectors'
-import { getData as getWallet } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getData as getAuthorizations } from 'dcl-dapps/dist/modules/authorization/selectors'
+import { getData as getWallet } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { RootState } from 'modules/common/types'
 import { fetchCollectionCurationRequest } from 'modules/curations/collectionCuration/actions'
 import { getStatusByCollectionId } from 'modules/collection/selectors'

@@ -1,5 +1,5 @@
-import { Center } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Center } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 
 export default function NotFound() {
   return (

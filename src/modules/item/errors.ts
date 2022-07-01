@@ -1,4 +1,4 @@
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { toMB } from 'lib/file'
 import { MAX_FILE_SIZE } from 'modules/item/utils'
 

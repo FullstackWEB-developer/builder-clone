@@ -8,8 +8,8 @@ import {
 } from './actions'
 import { Asset } from './types'
 import { COLLECTIBLE_ASSET_PACK_ID } from 'modules/ui/sidebar/utils'
-import { CONNECT_WALLET_SUCCESS } from 'decentraland-dapps/dist/modules/wallet/actions'
-import { getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { CONNECT_WALLET_SUCCESS } from 'dcl-dapps/dist/modules/wallet/actions'
+import { getAddress } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { TRANSPARENT_PIXEL } from 'lib/getModelData'
 import { BuilderClient, NFT } from '@dcl/builder-client'
 

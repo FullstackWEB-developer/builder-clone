@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { getAnalytics } from 'decentraland-dapps/dist/modules/analytics/utils'
-import { t, T } from 'decentraland-dapps/dist/modules/translation/utils'
+import { getAnalytics } from 'dcl-dapps/dist/modules/analytics/utils'
+import { t, T } from 'dcl-dapps/dist/modules/translation/utils'
 import { locations } from 'routing/locations'
 
 import { Props } from './UnsupportedBrowserPage.types'

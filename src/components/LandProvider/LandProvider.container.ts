@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
-import { isConnecting } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
+import { isConnecting } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { RootState } from 'modules/common/types'
 import { getLandId } from 'modules/location/selectors'
 import { getLoading, getLands, getDeploymentsByLandId } from 'modules/land/selectors'

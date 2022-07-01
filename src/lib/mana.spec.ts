@@ -1,5 +1,5 @@
 import { ChainId } from '@dcl/schemas'
-import { AuthorizationType } from 'decentraland-dapps/dist/modules/authorization/types'
+import { AuthorizationType } from 'dcl-dapps/dist/modules/authorization/types'
 import { ContractName } from 'decentraland-transactions'
 import { buildManaAuthorization } from './mana'
 

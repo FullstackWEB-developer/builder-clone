@@ -1,4 +1,4 @@
-import { Profile } from 'decentraland-dapps/dist/modules/profile/types'
+import { Profile } from 'dcl-dapps/dist/modules/profile/types'
 import { config } from 'config'
 import { Item } from 'modules/item/types'
 import { Collection } from 'modules/collection/types'

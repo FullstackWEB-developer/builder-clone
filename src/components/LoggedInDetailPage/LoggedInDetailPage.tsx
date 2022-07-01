@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Page, Loader } from 'decentraland-ui'
+import { Page, Loader } from 'dcl-ui'
 
 import Navigation from 'components/Navigation'
 import Navbar from 'components/Navbar'

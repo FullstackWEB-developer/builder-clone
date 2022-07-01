@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { IntercomWidget } from 'decentraland-dapps/dist/components/Intercom/IntercomWidget'
+import { IntercomWidget } from 'dcl-dapps/dist/components/Intercom/IntercomWidget'
 
 import Icon from 'components/Icon'
 import Preview from 'components/Preview'

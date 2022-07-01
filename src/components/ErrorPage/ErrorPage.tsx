@@ -1,8 +1,8 @@
 import * as React from 'react'
-import { Button, Page } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { getAnalytics } from 'decentraland-dapps/dist/modules/analytics/utils'
-import { IntercomWidget } from 'decentraland-dapps/dist/components/Intercom/IntercomWidget'
+import { Button, Page } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
+import { getAnalytics } from 'dcl-dapps/dist/modules/analytics/utils'
+import { IntercomWidget } from 'dcl-dapps/dist/components/Intercom/IntercomWidget'
 
 import Navbar from 'components/Navbar'
 import Footer from 'components/Footer'

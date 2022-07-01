@@ -1,6 +1,6 @@
 import { action } from 'typesafe-actions'
 import { ChainId } from '@dcl/schemas'
-import { buildTransactionPayload } from 'decentraland-dapps/dist/modules/transaction/utils'
+import { buildTransactionPayload } from 'dcl-dapps/dist/modules/transaction/utils'
 import { FetchCollectionsParams } from 'lib/api/builder'
 import { PaginationStats } from 'lib/api/pagination'
 import { Item } from 'modules/item/types'

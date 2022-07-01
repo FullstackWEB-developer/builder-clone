@@ -1,9 +1,9 @@
 import * as React from 'react'
-import { Button, Loader, ModalNavigation, Input, InputOnChangeData } from 'decentraland-ui'
+import { Button, Loader, ModalNavigation, Input, InputOnChangeData } from 'dcl-ui'
 
-import Modal from 'decentraland-dapps/dist/containers/Modal'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { getAnalytics } from 'decentraland-dapps/dist/modules/analytics/utils'
+import Modal from 'dcl-dapps/dist/containers/Modal'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
+import { getAnalytics } from 'dcl-dapps/dist/modules/analytics/utils'
 
 import WalletLoginModal from '../WalletLoginModal'
 import { ShareModalType, ShareModalMetadata } from '../ShareModal/ShareModal.types'

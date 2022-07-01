@@ -1,8 +1,8 @@
 import * as React from 'react'
-import { ModalNavigation, ModalActions } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import Modal from 'decentraland-dapps/dist/containers/Modal'
-import { NetworkButton } from 'decentraland-dapps/dist/containers'
+import { ModalNavigation, ModalActions } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
+import Modal from 'dcl-dapps/dist/containers/Modal'
+import { NetworkButton } from 'dcl-dapps/dist/containers'
 import { Network } from '@dcl/schemas'
 import equal from 'fast-deep-equal'
 

@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { Button } from 'decentraland-ui'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
-import Modal from 'decentraland-dapps/dist/containers/Modal'
+import { Button } from 'dcl-ui'
+import { T, t } from 'dcl-dapps/dist/modules/translation/utils'
+import Modal from 'dcl-dapps/dist/containers/Modal'
 
 import { Props } from './ExportModal.types'
 import './ExportModal.css'

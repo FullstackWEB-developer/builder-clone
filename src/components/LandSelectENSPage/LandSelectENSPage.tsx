@@ -1,6 +1,6 @@
 import * as React from 'react'
 import LandAction from 'components/LandAction'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { T, t } from 'dcl-dapps/dist/modules/translation/utils'
 import { Link } from 'react-router-dom'
 import { locations } from 'routing/locations'
 import { Land } from 'modules/land/types'

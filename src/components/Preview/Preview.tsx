@@ -3,7 +3,7 @@ import { DropTarget } from 'react-dnd'
 import Lottie from 'react-lottie'
 import { config } from 'config'
 
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { ASSET_TYPE } from 'components/AssetCard/AssetCard.dnd'
 import { PreviewType } from 'modules/editor/types'
 import { convertToUnityKeyboardEvent } from 'modules/editor/utils'

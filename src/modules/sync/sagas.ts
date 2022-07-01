@@ -1,5 +1,5 @@
 import { takeLatest, select, put, call, takeEvery, take } from 'redux-saga/effects'
-import { DataByKey } from 'decentraland-dapps/dist/lib/types'
+import { DataByKey } from 'dcl-dapps/dist/lib/types'
 
 import { getData as getProjects, getCurrentProject } from 'modules/project/selectors'
 import { getData as getScenes } from 'modules/scene/selectors'

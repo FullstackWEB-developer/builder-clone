@@ -1,5 +1,5 @@
 import { Dispatch } from 'redux'
-import { SignInProps } from 'decentraland-ui'
+import { SignInProps } from 'dcl-ui'
 import { CallHistoryMethodAction } from 'connected-react-router'
 import { Coordinate, Rotation, DeploymentStatus, Deployment } from 'modules/deployment/types'
 import { DeployToLandRequestAction, deployToLandRequest } from 'modules/deployment/actions'

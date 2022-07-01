@@ -1,7 +1,7 @@
 import React from 'react'
-import Modal from 'decentraland-dapps/dist/containers/Modal'
-import { Button, ModalNavigation } from 'decentraland-ui'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
+import Modal from 'dcl-dapps/dist/containers/Modal'
+import { Button, ModalNavigation } from 'dcl-ui'
+import { T, t } from 'dcl-dapps/dist/modules/translation/utils'
 import { Props } from './ResetItemModal.types'
 
 import './ResetItemModal.css'

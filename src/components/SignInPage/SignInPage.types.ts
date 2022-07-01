@@ -1,5 +1,5 @@
 import { Dispatch } from 'redux'
-import { SignInProps } from 'decentraland-ui'
+import { SignInProps } from 'dcl-ui'
 import { loginRequest, LoginRequestAction } from 'modules/identity/actions'
 
 export type Props = Omit<SignInProps, 'onConnect'> & {

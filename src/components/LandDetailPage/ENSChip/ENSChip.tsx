@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Loader } from 'decentraland-ui'
+import { Loader } from 'dcl-ui'
 import { locations } from 'routing/locations'
 import Chip from 'components/Chip'
 import { Props } from './ENSChip.types'

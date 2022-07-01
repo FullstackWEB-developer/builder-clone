@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
-import { isConnected, isConnecting } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
+import { isConnected, isConnecting } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { RootState } from 'modules/common/types'
 import { getItemId } from 'modules/location/selectors'
 import { isLoggingIn } from 'modules/identity/selectors'

@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import { push } from 'connected-react-router'
-import { getData as getWallet } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getData as getWallet } from 'dcl-dapps/dist/modules/wallet/selectors'
 
 import { RootState } from 'modules/common/types'
 import { getAuthorizations } from 'modules/land/selectors'

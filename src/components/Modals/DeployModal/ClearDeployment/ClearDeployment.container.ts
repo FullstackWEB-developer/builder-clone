@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 
-import { getError as getWalletError, isConnecting, isConnected, getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getError as getWalletError, isConnecting, isConnected, getAddress } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { clearDeploymentRequest } from 'modules/deployment/actions'
 import { openModal } from 'modules/modal/actions'
 import { RootState } from 'modules/common/types'

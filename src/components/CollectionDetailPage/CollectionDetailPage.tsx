@@ -1,9 +1,9 @@
 import * as React from 'react'
 import { Link } from 'react-router-dom'
 import { Network } from '@dcl/schemas'
-import { Section, Row, Narrow, Column, Header, Button, Icon, Popup, Radio, CheckboxProps } from 'decentraland-ui'
-import { NetworkCheck } from 'decentraland-dapps/dist/containers'
-import { t, T } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Section, Row, Narrow, Column, Header, Button, Icon, Popup, Radio, CheckboxProps } from 'dcl-ui'
+import { NetworkCheck } from 'dcl-dapps/dist/containers'
+import { t, T } from 'dcl-dapps/dist/modules/translation/utils'
 import { locations } from 'routing/locations'
 import {
   canMintCollectionItems,

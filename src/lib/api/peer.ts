@@ -1,5 +1,5 @@
 import { config } from 'config'
-import { BaseAPI } from 'decentraland-dapps/dist/lib/api'
+import { BaseAPI } from 'dcl-dapps/dist/lib/api'
 import { ContentServiceScene } from 'modules/deployment/types'
 
 export const PEER_URL = config.get('PEER_URL', '')

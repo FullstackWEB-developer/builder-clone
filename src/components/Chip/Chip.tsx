@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Row } from 'decentraland-ui'
+import { Row } from 'dcl-ui'
 
 import Icon from 'components/Icon'
 import { Props, DefaultProps } from './Chip.types'

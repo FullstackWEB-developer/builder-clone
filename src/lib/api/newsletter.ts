@@ -1,4 +1,4 @@
-import { BaseAPI } from 'decentraland-dapps/dist/lib/api'
+import { BaseAPI } from 'dcl-dapps/dist/lib/api'
 import { config } from 'config'
 
 export enum EMAIL_INTEREST {

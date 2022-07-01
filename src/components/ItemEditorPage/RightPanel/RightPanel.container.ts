@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { getAddress, isConnected } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getAddress, isConnected } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { RootState } from 'modules/common/types'
 import { getItem, getError as getItemError, isDownloading } from 'modules/item/selectors'
 import { deleteItemRequest, downloadItemRequest, saveItemRequest, setCollection } from 'modules/item/actions'

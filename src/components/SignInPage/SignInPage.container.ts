@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { isConnecting } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { isConnecting } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { isLoggedIn } from 'modules/identity/selectors'
 import { loginRequest } from 'modules/identity/actions'
 import { RootState } from 'modules/common/types'

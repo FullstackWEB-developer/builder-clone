@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { ProfileProps } from 'decentraland-ui'
-import { Profile as BaseProfile } from 'decentraland-dapps/dist/containers'
+import { ProfileProps } from 'dcl-ui'
+import { Profile as BaseProfile } from 'dcl-dapps/dist/containers'
 import { isEqual } from 'lib/address'
 import { LAND_POOL_ADDRESS } from 'modules/land/utils'
 

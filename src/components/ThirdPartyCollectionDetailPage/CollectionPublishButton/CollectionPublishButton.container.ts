@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
 import { RootState } from 'modules/common/types'
 import { openModal } from 'modules/modal/actions'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
 import { getItemCurations, getLoading as getLoadingItemCurations } from 'modules/curations/itemCuration/selectors'
 import { FETCH_ITEM_CURATIONS_REQUEST } from 'modules/curations/itemCuration/actions'
 import { getStatusForItemIds } from 'modules/item/selectors'

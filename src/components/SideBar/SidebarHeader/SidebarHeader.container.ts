@@ -6,7 +6,7 @@ import { selectCategory, selectAssetPack, searchAssets } from 'modules/ui/sideba
 import { openModal } from 'modules/modal/actions'
 import { MapStateProps, MapDispatchProps, MapDispatch } from './SidebarHeader.types'
 import SidebarHeader from './SidebarHeader'
-import { getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getAddress } from 'dcl-dapps/dist/modules/wallet/selectors'
 
 const mapState = (state: RootState): MapStateProps => ({
   selectedAssetPack: getSelectedAssetPack(state),

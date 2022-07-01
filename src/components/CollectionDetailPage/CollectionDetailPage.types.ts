@@ -1,6 +1,6 @@
 import { Dispatch } from 'redux'
 import { CallHistoryMethodAction } from 'connected-react-router'
-import { Wallet } from 'decentraland-dapps/dist/modules/wallet/types'
+import { Wallet } from 'dcl-dapps/dist/modules/wallet/types'
 import { openModal, OpenModalAction } from 'modules/modal/actions'
 import { Collection } from 'modules/collection/types'
 

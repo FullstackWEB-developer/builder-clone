@@ -1,6 +1,6 @@
 import { Wearable } from 'decentraland-ecs'
 import { takeLatest, select, put, call, delay, take } from 'redux-saga/effects'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
 import {
   updateEditor,
   BIND_EDITOR_KEYBOARD_SHORTCUTS,

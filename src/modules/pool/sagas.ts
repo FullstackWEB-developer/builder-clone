@@ -1,5 +1,5 @@
 import { put, call, takeLatest } from 'redux-saga/effects'
-import { ModelById } from 'decentraland-dapps/dist/lib/types'
+import { ModelById } from 'dcl-dapps/dist/lib/types'
 import {
   LikePoolRequestAction,
   likePoolFailure,

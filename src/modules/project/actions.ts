@@ -1,6 +1,6 @@
 import { action } from 'typesafe-actions'
 
-import { ModelById } from 'decentraland-dapps/dist/lib/types'
+import { ModelById } from 'dcl-dapps/dist/lib/types'
 import { Project, Manifest } from 'modules/project/types'
 import { Template } from 'modules/template/types'
 import { Scene } from 'modules/scene/types'

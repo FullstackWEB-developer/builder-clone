@@ -1,6 +1,6 @@
 import { Dispatch } from 'redux'
 import { CallHistoryMethodAction } from 'connected-react-router'
-import { Wallet } from 'decentraland-dapps/dist/modules/wallet/types'
+import { Wallet } from 'dcl-dapps/dist/modules/wallet/types'
 import { deleteItemRequest, DeleteItemRequestAction } from 'modules/item/actions'
 import { Collection } from 'modules/collection/types'
 import { Item } from 'modules/item/types'

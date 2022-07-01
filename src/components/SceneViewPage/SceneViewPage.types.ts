@@ -1,7 +1,7 @@
 import { Dispatch } from 'redux'
 import { CallHistoryMethodAction } from 'connected-react-router'
 import { match } from 'react-router'
-import { Profile } from 'decentraland-dapps/dist/modules/profile/types'
+import { Profile } from 'dcl-dapps/dist/modules/profile/types'
 
 import { Project } from 'modules/project/types'
 import { Pool } from 'modules/pool/types'

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Popup } from 'decentraland-ui'
+import { Popup } from 'dcl-ui'
 
 import Icon from 'components/Icon'
 import { GROUND_CATEGORY } from 'modules/asset/types'

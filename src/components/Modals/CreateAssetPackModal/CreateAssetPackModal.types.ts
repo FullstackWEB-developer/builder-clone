@@ -1,5 +1,5 @@
 import { Dispatch } from 'redux'
-import { ModalProps } from 'decentraland-dapps/dist/providers/ModalProvider/ModalProvider.types'
+import { ModalProps } from 'dcl-dapps/dist/providers/ModalProvider/ModalProvider.types'
 import { RawAssetPack, AssetPack } from 'modules/assetPack/types'
 import { saveAssetPackRequest, SaveAssetPackRequestAction } from 'modules/assetPack/actions'
 import { AssetPackState } from 'modules/assetPack/reducer'

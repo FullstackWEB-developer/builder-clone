@@ -1,7 +1,7 @@
 import { createSelector } from 'reselect'
 import { Location } from 'history'
 import { getLocation } from 'connected-react-router'
-import { DataByKey } from 'decentraland-dapps/dist/lib/types'
+import { DataByKey } from 'dcl-dapps/dist/lib/types'
 import { RootState } from 'modules/common/types'
 import { getUserProjects } from 'modules/project/selectors'
 import { Project } from 'modules/project/types'

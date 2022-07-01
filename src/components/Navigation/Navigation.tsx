@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Tabs } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Tabs } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { Props, NavigationTab } from './Navigation.types'
 import { locations } from 'routing/locations'
 

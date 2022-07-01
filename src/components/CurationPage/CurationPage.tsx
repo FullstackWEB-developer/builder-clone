@@ -12,8 +12,8 @@ import {
   DropdownProps,
   PaginationProps,
   Loader
-} from 'decentraland-ui'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
+} from 'dcl-ui'
+import { T, t } from 'dcl-dapps/dist/modules/translation/utils'
 import { FetchCollectionsParams } from 'lib/api/builder'
 import Profile from 'components/Profile'
 import NotFound from 'components/NotFound'

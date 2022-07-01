@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Link } from 'react-router-dom'
-import { t, T } from 'decentraland-dapps/dist/modules/translation/utils'
-import { Container, Button, Page, Dropdown, DropdownProps, Pagination, PaginationProps, Row, Header, Icon, Section } from 'decentraland-ui'
+import { t, T } from 'dcl-dapps/dist/modules/translation/utils'
+import { Container, Button, Page, Dropdown, DropdownProps, Pagination, PaginationProps, Row, Header, Icon, Section } from 'dcl-ui'
 
 import BuilderIcon from 'components/Icon'
 import ProjectCard from 'components/ProjectCard'

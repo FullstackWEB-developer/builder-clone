@@ -1,6 +1,6 @@
 import { config } from 'config'
 import { takeEvery, call, put } from 'redux-saga/effects'
-import { Atlas, AtlasTile } from 'decentraland-ui'
+import { Atlas, AtlasTile } from 'dcl-ui'
 import { FETCH_TILES_REQUEST, FetchTilesRequestAction, fetchTilesSuccess, fetchTilesFailure } from './actions'
 
 export const MARKETPLACE_URL = config.get('MARKETPLACE_URL', '')

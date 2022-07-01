@@ -1,6 +1,6 @@
 import { Category } from 'modules/ui/sidebar/types'
 import { AssetPack } from 'modules/assetPack/types'
-import { DataByKey } from 'decentraland-dapps/dist/lib/types'
+import { DataByKey } from 'dcl-dapps/dist/lib/types'
 import { Asset } from 'modules/asset/types'
 
 export type Props = {

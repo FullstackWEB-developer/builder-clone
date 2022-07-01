@@ -1,6 +1,6 @@
 import React from 'react'
-import { Table, Icon } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Table, Icon } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { locations } from 'routing/locations'
 import { getCollectionType } from 'modules/collection/utils'
 import CollectionStatus from 'components/CollectionStatus'

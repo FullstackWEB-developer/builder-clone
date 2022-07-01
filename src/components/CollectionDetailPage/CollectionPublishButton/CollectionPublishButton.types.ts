@@ -1,6 +1,6 @@
 import { Dispatch } from 'react'
-import { Authorization } from 'decentraland-dapps/dist/modules/authorization/types'
-import { Wallet } from 'decentraland-dapps/dist/modules/wallet/types'
+import { Authorization } from 'dcl-dapps/dist/modules/authorization/types'
+import { Wallet } from 'dcl-dapps/dist/modules/wallet/types'
 import { OpenModalAction } from 'modules/modal/actions'
 import { Collection } from 'modules/collection/types'
 import { Item, SyncStatus } from 'modules/item/types'

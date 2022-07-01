@@ -1,5 +1,5 @@
 import { Dispatch } from 'redux'
-import { ModalProps } from 'decentraland-dapps/dist/providers/ModalProvider/ModalProvider.types'
+import { ModalProps } from 'dcl-dapps/dist/providers/ModalProvider/ModalProvider.types'
 import { PushCollectionCurationRequestAction } from 'modules/curations/collectionCuration/actions'
 
 export type Props = ModalProps & {

@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Field, FieldProps } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Field, FieldProps } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 
 import { MIN_TITLE_LENGTH, MAX_TITLE_LENGTH } from 'modules/project/constants'
 

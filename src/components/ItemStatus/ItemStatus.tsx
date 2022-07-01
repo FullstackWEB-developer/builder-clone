@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { Popup } from 'decentraland-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
+import { Popup } from 'dcl-ui'
 import { SyncStatus } from 'modules/item/types'
 import { Props } from './ItemStatus.types'
 

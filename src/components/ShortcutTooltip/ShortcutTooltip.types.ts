@@ -1,4 +1,4 @@
-import { PopupProps } from 'decentraland-ui'
+import { PopupProps } from 'dcl-ui'
 import { ShortcutDefinition, Shortcut } from 'modules/keyboard/types'
 
 export type DefaultProps = {

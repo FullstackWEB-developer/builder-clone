@@ -1,8 +1,8 @@
 import * as React from 'react'
 import { ethers } from 'ethers'
 import CopyToClipboard from 'react-copy-to-clipboard'
-import { Section, Row, Narrow, Column, Header, Button, Dropdown, Icon } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Section, Row, Narrow, Column, Header, Button, Dropdown, Icon } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { Link } from 'react-router-dom'
 
 import { locations } from 'routing/locations'

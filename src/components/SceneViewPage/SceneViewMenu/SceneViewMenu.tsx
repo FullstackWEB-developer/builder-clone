@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { Button, Responsive } from 'decentraland-ui'
+import { Button, Responsive } from 'dcl-ui'
 
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import UserMenu from 'components/UserMenu'
 import { Props, State } from './SceneViewMenu.types'
 

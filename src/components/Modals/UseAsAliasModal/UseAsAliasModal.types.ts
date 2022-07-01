@@ -1,6 +1,6 @@
 import { Dispatch } from 'redux'
-import { ModalProps } from 'decentraland-dapps/dist/providers/ModalProvider/ModalProvider.types'
-import { setProfileAvatarAliasRequest } from 'decentraland-dapps/dist/modules/profile/actions'
+import { ModalProps } from 'dcl-dapps/dist/providers/ModalProvider/ModalProvider.types'
+import { setProfileAvatarAliasRequest } from 'dcl-dapps/dist/modules/profile/actions'
 import { ENS } from 'modules/ens/types'
 
 export type Props = ModalProps & {

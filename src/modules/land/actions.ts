@@ -1,7 +1,7 @@
 import { action } from 'typesafe-actions'
 import { ChainId } from '@dcl/schemas'
-import { buildTransactionPayload } from 'decentraland-dapps/dist/modules/transaction/utils'
-import { Coord } from 'decentraland-ui'
+import { buildTransactionPayload } from 'dcl-dapps/dist/modules/transaction/utils'
+import { Coord } from 'dcl-ui'
 import { Land, LandType, Authorization } from './types'
 import { getSelection } from './utils'
 

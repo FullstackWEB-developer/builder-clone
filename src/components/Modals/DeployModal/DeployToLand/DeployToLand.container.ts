@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import { push } from 'connected-react-router'
-import { getError as getWalletError, isConnecting, isConnected, getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getError as getWalletError, isConnecting, isConnected, getAddress } from 'dcl-dapps/dist/modules/wallet/selectors'
 import {
   isUploadingAssets,
   getProgress as getUploadProgress,

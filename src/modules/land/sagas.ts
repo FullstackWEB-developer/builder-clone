@@ -5,9 +5,9 @@ import {
   CHANGE_ACCOUNT,
   ConnectWalletSuccessAction,
   ChangeAccountAction
-} from 'decentraland-dapps/dist/modules/wallet/actions'
-import { getSigner } from 'decentraland-dapps/dist/lib/eth'
-import { Wallet } from 'decentraland-dapps/dist/modules/wallet/types'
+} from 'dcl-dapps/dist/modules/wallet/actions'
+import { getSigner } from 'dcl-dapps/dist/lib/eth'
+import { Wallet } from 'dcl-dapps/dist/modules/wallet/types'
 import {
   FETCH_LANDS_REQUEST,
   FetchLandsRequestAction,

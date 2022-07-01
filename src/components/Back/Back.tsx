@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Back as BackComponent } from 'decentraland-ui'
+import { Back as BackComponent } from 'dcl-ui'
 import { Props } from './Back.types'
 
 export default class Back extends React.PureComponent<Props> {

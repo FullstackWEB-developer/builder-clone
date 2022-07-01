@@ -1,4 +1,4 @@
-import { fetchTransactionSuccess } from 'decentraland-dapps/dist/modules/transaction/actions'
+import { fetchTransactionSuccess } from 'dcl-dapps/dist/modules/transaction/actions'
 import { PaginationStats } from 'lib/api/pagination'
 import { closeAllModals, closeModal } from 'modules/modal/actions'
 import { fetchCollectionsSuccess, PUBLISH_COLLECTION_SUCCESS } from './actions'

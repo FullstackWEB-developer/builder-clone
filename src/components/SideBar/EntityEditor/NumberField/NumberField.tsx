@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Field, InputOnChangeData } from 'decentraland-ui'
+import { Field, InputOnChangeData } from 'dcl-ui'
 import { Props, State } from './NumberField.types'
 import './NumberField.css'
 

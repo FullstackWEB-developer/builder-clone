@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { Header, Button, Form } from 'decentraland-ui'
-import Modal from 'decentraland-dapps/dist/containers/Modal'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Header, Button, Form } from 'dcl-ui'
+import Modal from 'dcl-dapps/dist/containers/Modal'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 
 import { ProjectLayout, Project } from 'modules/project/types'
 import { DeploymentStatus } from 'modules/deployment/types'

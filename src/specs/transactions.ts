@@ -1,4 +1,4 @@
-import { Transaction, TransactionStatus } from 'decentraland-dapps/dist/modules/transaction/types'
+import { Transaction, TransactionStatus } from 'dcl-dapps/dist/modules/transaction/types'
 import { RootState } from 'modules/common/types'
 
 export function addTransactionToState(state: RootState, action: string, status: TransactionStatus, address: string): RootState {

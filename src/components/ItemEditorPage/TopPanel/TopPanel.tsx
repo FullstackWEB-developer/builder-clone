@@ -1,6 +1,6 @@
 import React from 'react'
-import { Button, Header, Icon, Loader, Popup } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Button, Header, Icon, Loader, Popup } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { locations } from 'routing/locations'
 import { Collection } from 'modules/collection/types'
 import { CollectionCuration } from 'modules/curations/collectionCuration/types'

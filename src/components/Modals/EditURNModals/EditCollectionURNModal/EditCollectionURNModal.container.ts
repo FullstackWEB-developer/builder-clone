@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import { RootState } from 'modules/common/types'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
 import { buildThirdPartyURN, DecodedURN, URNType } from 'lib/urn'
 import { getLoading as getCollectionLoading, getError } from 'modules/collection/selectors'
 import { saveCollectionRequest, SAVE_COLLECTION_REQUEST } from 'modules/collection/actions'

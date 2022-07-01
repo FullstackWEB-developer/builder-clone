@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getAddress } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { RootState } from 'modules/common/types'
 import { getAuthorizedCollections } from 'modules/collection/selectors'
 import { fetchCollectionsRequest } from 'modules/collection/actions'

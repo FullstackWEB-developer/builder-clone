@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Dropdown, Button, Icon } from 'decentraland-ui'
+import { Dropdown, Button, Icon } from 'dcl-ui'
 import { locations } from 'routing/locations'
 import SceneStats from 'components/SceneStats'
 import { DeployModalView, DeployModalMetadata } from 'components/Modals/DeployModal/DeployModal.types'

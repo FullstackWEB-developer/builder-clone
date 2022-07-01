@@ -1,5 +1,5 @@
-import { getIsFeatureEnabled } from 'decentraland-dapps/dist/modules/features/selectors'
-import { ApplicationName } from 'decentraland-dapps/dist/modules/features/types'
+import { getIsFeatureEnabled } from 'dcl-dapps/dist/modules/features/selectors'
+import { ApplicationName } from 'dcl-dapps/dist/modules/features/types'
 import { RootState } from 'modules/common/types'
 import { FeatureName } from './types'
 

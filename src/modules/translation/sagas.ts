@@ -1,9 +1,9 @@
 import { put, takeLatest, select } from 'redux-saga/effects'
-import { Locale } from 'decentraland-ui'
-import { getLocale } from 'decentraland-dapps/dist/modules/translation/selectors'
-import { changeLocale } from 'decentraland-dapps/dist/modules/translation/actions'
-import { STORAGE_LOAD } from 'decentraland-dapps/dist/modules/storage/actions'
-import { createTranslationSaga } from 'decentraland-dapps/dist/modules/translation/sagas'
+import { Locale } from 'dcl-ui'
+import { getLocale } from 'dcl-dapps/dist/modules/translation/selectors'
+import { changeLocale } from 'dcl-dapps/dist/modules/translation/actions'
+import { STORAGE_LOAD } from 'dcl-dapps/dist/modules/storage/actions'
+import { createTranslationSaga } from 'dcl-dapps/dist/modules/translation/sagas'
 
 import * as languages from './languages'
 

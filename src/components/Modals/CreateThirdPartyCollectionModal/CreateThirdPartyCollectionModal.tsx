@@ -11,10 +11,10 @@ import {
   InputOnChangeData,
   SelectField,
   DropdownProps
-} from 'decentraland-ui'
-import { getAnalytics } from 'decentraland-dapps/dist/modules/analytics/utils'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import Modal from 'decentraland-dapps/dist/containers/Modal'
+} from 'dcl-ui'
+import { getAnalytics } from 'dcl-dapps/dist/modules/analytics/utils'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
+import Modal from 'dcl-dapps/dist/containers/Modal'
 import { buildThirdPartyURN, decodeURN } from 'lib/urn'
 import { Collection, TP_COLLECTION_NAME_MAX_LENGTH } from 'modules/collection/types'
 import { Props, State } from './CreateThirdPartyCollectionModal.types'

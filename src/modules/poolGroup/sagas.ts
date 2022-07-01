@@ -8,7 +8,7 @@ import {
   loadPoolGroupsRequest
 } from './actions'
 import { PoolGroup } from './types'
-import { ModelById } from 'decentraland-dapps/dist/lib/types'
+import { ModelById } from 'dcl-dapps/dist/lib/types'
 
 export function* poolGroupSaga(builder: BuilderAPI) {
   yield fork(handlePoolGroups)

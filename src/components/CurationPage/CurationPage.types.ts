@@ -1,5 +1,5 @@
 import { Dispatch } from 'redux'
-import { Wallet } from 'decentraland-dapps/dist/modules/wallet/types'
+import { Wallet } from 'dcl-dapps/dist/modules/wallet/types'
 import { FetchCollectionsParams } from 'lib/api/builder'
 import { FetchCollectionsRequestAction } from 'modules/collection/actions'
 import { CollectionPaginationData } from 'modules/collection/reducer'

@@ -1,9 +1,9 @@
 import React from 'react'
 import Navbar from 'components/Navbar'
-import { Page } from 'decentraland-ui'
+import { Page } from 'dcl-ui'
 import { ProviderType } from '@dcl/schemas'
 import Footer from 'components/Footer'
-import { default as SignIn } from 'decentraland-dapps/dist/containers/SignInPage'
+import { default as SignIn } from 'dcl-dapps/dist/containers/SignInPage'
 import { Props } from './SignInPage.types'
 
 export default class SignInPage extends React.PureComponent<Props> {

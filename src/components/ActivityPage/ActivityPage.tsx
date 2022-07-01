@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from 'react'
-import { Page, Header, Button, Modal } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Page, Header, Button, Modal } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import Navbar from 'components/Navbar'
 import Footer from 'components/Footer'
 import Navigation from 'components/Navigation'

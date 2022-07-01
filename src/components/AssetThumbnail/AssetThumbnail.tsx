@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Popup } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Popup } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { CategoryName } from 'modules/ui/sidebar/utils'
 import Icon from 'components/Icon'
 

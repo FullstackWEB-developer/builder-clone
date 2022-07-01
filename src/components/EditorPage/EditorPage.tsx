@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Grid } from 'decentraland-ui'
-import { getLocalStorage } from 'decentraland-dapps/dist/lib/localStorage'
+import { Grid } from 'dcl-ui'
+import { getLocalStorage } from 'dcl-dapps/dist/lib/localStorage'
 import experiments, { EXPERIMENT_TUTORIAL_OPEN } from 'experiments'
 
 import NotFoundPage from 'components/NotFoundPage'

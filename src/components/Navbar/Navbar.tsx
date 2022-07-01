@@ -1,6 +1,6 @@
 import * as React from 'react'
 import UserMenu from 'components/UserMenu'
-import BaseNavbar from '../BaseNavbar'
+import { Navbar as BaseNavbar } from 'dcl-dapps/dist/containers'
 import { Props } from './Navbar.types'
 
 export default class Navbar extends React.PureComponent<Props> {

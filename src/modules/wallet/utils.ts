@@ -1,8 +1,8 @@
 import { select } from 'redux-saga/effects'
 import { ethers } from 'ethers'
-import { getConnectedProvider } from 'decentraland-dapps/dist/lib/eth'
-import { Wallet, Provider } from 'decentraland-dapps/dist/modules/wallet/types'
-import { getData as getBaseWallet } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getConnectedProvider } from 'dcl-dapps/dist/lib/eth'
+import { Wallet, Provider } from 'dcl-dapps/dist/modules/wallet/types'
+import { getData as getBaseWallet } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { config } from 'config'
 
 export const TRANSACTIONS_API_URL = config.get('TRANSACTIONS_API_URL')

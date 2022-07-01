@@ -1,8 +1,8 @@
 import { createSelector } from 'reselect'
 import { AuthIdentity } from '@dcl/crypto'
-import { isConnecting, getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { isConnecting, getAddress } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { RootState } from 'modules/common/types'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
 import { GENERATE_IDENTITY_REQUEST } from './actions'
 
 function isValid(identity?: AuthIdentity | null) {

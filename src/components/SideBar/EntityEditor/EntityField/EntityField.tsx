@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { SelectField, DropdownProps, Popup, Search, SearchProps, DropdownItemProps } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { SelectField, DropdownProps, Popup, Search, SearchProps, DropdownItemProps } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { Asset } from 'modules/asset/types'
 import { Props, State } from './EntityField.types'
 import './EntityField.css'

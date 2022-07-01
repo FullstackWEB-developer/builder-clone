@@ -1,8 +1,8 @@
-import { getIsFeatureEnabled } from 'decentraland-dapps/dist/modules/features/selectors'
+import { getIsFeatureEnabled } from 'dcl-dapps/dist/modules/features/selectors'
 import { RootState } from 'modules/common/types'
 import { getIsMaintenanceEnabled } from './selectors'
 
-jest.mock('decentraland-dapps/dist/modules/features/selectors')
+jest.mock('dcl-dapps/dist/modules/features/selectors')
 
 const mockGetIsFeatureEnabled = getIsFeatureEnabled as jest.MockedFunction<typeof getIsFeatureEnabled>
 

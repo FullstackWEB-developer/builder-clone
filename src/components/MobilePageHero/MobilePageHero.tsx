@@ -1,7 +1,7 @@
 import * as React from 'react'
 import isMobile from 'ismobilejs'
-import { Hero, Button, Form, Field } from 'decentraland-ui'
-import { t, T } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Hero, Button, Form, Field } from 'dcl-ui'
+import { t, T } from 'dcl-dapps/dist/modules/translation/utils'
 
 import { Props } from './MobilePageHero.types'
 import './MobilePageHero.css'

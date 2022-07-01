@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Dropdown, DropdownProps } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Dropdown, DropdownProps } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { Props, State } from './Select.types'
 import './Select.css'
 

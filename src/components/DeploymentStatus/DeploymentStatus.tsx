@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Popup } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Popup } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { DeploymentStatus as Status } from 'modules/deployment/types'
 import { getDeployment, getStatus } from 'modules/deployment/utils'
 import { coordsToId, getExplorerURL } from 'modules/land/utils'

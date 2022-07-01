@@ -1,6 +1,6 @@
 import { call, put, takeLatest, all, select } from 'redux-saga/effects'
 
-import { getData as getWallet } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getData as getWallet } from 'dcl-dapps/dist/modules/wallet/selectors'
 import {
   LOAD_ASSET_PACKS_REQUEST,
   loadAssetPacksSuccess,

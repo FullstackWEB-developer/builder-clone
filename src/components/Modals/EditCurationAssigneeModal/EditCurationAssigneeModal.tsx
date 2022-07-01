@@ -1,7 +1,7 @@
 import React from 'react'
-import { ModalNavigation, Button, Form, SelectField, DropdownProps } from 'decentraland-ui'
-import Modal from 'decentraland-dapps/dist/containers/Modal'
-import { t, T } from 'decentraland-dapps/dist/modules/translation/utils'
+import { ModalNavigation, Button, Form, SelectField, DropdownProps } from 'dcl-ui'
+import Modal from 'dcl-dapps/dist/containers/Modal'
+import { t, T } from 'dcl-dapps/dist/modules/translation/utils'
 import { AssignModalOperationType, Props, State } from './EditCurationAssigneeModal.types'
 import './EditCurationAssigneeModal.css'
 

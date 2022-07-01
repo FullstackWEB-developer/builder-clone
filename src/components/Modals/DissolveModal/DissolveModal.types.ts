@@ -1,4 +1,4 @@
-import { ModalProps } from 'decentraland-dapps/dist/providers/ModalProvider/ModalProvider.types'
+import { ModalProps } from 'dcl-dapps/dist/providers/ModalProvider/ModalProvider.types'
 import { Land } from 'modules/land/types'
 import { Dispatch } from 'redux'
 import { dissolveEstateRequest, DissolveEstateRequestAction } from 'modules/land/actions'

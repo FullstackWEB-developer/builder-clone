@@ -1,7 +1,7 @@
 import { LocationChangeAction, LOCATION_CHANGE } from 'connected-react-router'
-import { CloseAllModalsAction, CloseModalAction, CLOSE_ALL_MODALS, CLOSE_MODAL } from 'decentraland-dapps/dist/modules/modal/actions'
-import { LoadingState, loadingReducer } from 'decentraland-dapps/dist/modules/loading/reducer'
-import { FetchTransactionSuccessAction, FETCH_TRANSACTION_SUCCESS } from 'decentraland-dapps/dist/modules/transaction/actions'
+import { CloseAllModalsAction, CloseModalAction, CLOSE_ALL_MODALS, CLOSE_MODAL } from 'dcl-dapps/dist/modules/modal/actions'
+import { LoadingState, loadingReducer } from 'dcl-dapps/dist/modules/loading/reducer'
+import { FetchTransactionSuccessAction, FETCH_TRANSACTION_SUCCESS } from 'dcl-dapps/dist/modules/transaction/actions'
 import {
   CreateCollectionForumPostRequestAction,
   CreateCollectionForumPostSuccessAction,

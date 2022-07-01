@@ -1,6 +1,6 @@
 import { action } from 'typesafe-actions'
 
-import { ModelById } from 'decentraland-dapps/dist/lib/types'
+import { ModelById } from 'dcl-dapps/dist/lib/types'
 import { Pool, PoolsRequestFilters } from 'modules/pool/types'
 
 // Load cloud pools

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { SelectField, DropdownProps } from 'decentraland-ui'
+import { SelectField, DropdownProps } from 'dcl-ui'
 import { Props } from './OptionsField.types'
 import './OptionsField.css'
 

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Header } from 'decentraland-ui'
+import { Header } from 'dcl-ui'
 import { debounce } from 'lib/debounce'
 import Icon from 'components/Icon'
 import { AssetParameterValues } from 'modules/asset/types'

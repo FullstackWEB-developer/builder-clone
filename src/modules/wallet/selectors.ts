@@ -1,5 +1,5 @@
 import { Network } from '@dcl/schemas'
-import { getNetworks } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getNetworks } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { RootState } from 'modules/common/types'
 
 export function getManaBalanceForNetwork(state: RootState, network: Network): number {

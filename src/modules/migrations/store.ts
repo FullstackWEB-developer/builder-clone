@@ -1,6 +1,6 @@
 import { addMappings } from './ISSUE-485'
 import { RootState } from 'modules/common/types'
-import { DataByKey } from 'decentraland-dapps/dist/lib/types'
+import { DataByKey } from 'dcl-dapps/dist/lib/types'
 import { Project } from 'modules/project/types'
 import { INITIAL_STATE as DEPLOYMENT_INITIAL_STATE } from 'modules/deployment/reducer'
 import {

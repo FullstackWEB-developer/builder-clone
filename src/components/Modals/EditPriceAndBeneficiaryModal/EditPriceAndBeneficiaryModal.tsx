@@ -13,11 +13,11 @@ import {
   FieldProps,
   Mana,
   Card
-} from 'decentraland-ui'
-import { NetworkButton } from 'decentraland-dapps/dist/containers'
-import Modal from 'decentraland-dapps/dist/containers/Modal'
-import { T, t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { toFixedMANAValue } from 'decentraland-dapps/dist/lib/mana'
+} from 'dcl-ui'
+import { NetworkButton } from 'dcl-dapps/dist/containers'
+import Modal from 'dcl-dapps/dist/containers/Modal'
+import { T, t } from 'dcl-dapps/dist/modules/translation/utils'
+import { toFixedMANAValue } from 'dcl-dapps/dist/lib/mana'
 
 import Info from 'components/Info'
 import { isValid } from 'lib/address'

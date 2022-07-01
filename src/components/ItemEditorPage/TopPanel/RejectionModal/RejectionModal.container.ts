@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import { RootState } from 'modules/common/types'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
 import { rejectCollectionRequest, REJECT_COLLECTION_REQUEST } from 'modules/collection/actions'
 import { getLoading as getLoadingCollection, hasPendingCurationTransaction } from 'modules/collection/selectors'
 import { getLoading as getLoadingCuration } from 'modules/curations/collectionCuration/selectors'

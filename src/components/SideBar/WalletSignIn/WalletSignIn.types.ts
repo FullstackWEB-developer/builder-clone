@@ -1,6 +1,6 @@
 import { Dispatch } from 'redux'
-import { SignInProps } from 'decentraland-ui'
-import { ConnectWalletRequestAction } from 'decentraland-dapps/dist/modules/wallet/actions'
+import { SignInProps } from 'dcl-ui'
+import { ConnectWalletRequestAction } from 'dcl-dapps/dist/modules/wallet/actions'
 import { openModal, OpenModalAction } from 'modules/modal/actions'
 
 export type Props = SignInProps & {

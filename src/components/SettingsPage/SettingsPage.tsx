@@ -1,8 +1,8 @@
 import * as React from 'react'
 import CopyToClipboard from 'react-copy-to-clipboard'
-import { Grid, Blockie, Loader, Row, Field, InputOnChangeData, Dropdown, Button, Section, DropdownProps, Header } from 'decentraland-ui'
-import { isMobile } from 'decentraland-dapps/dist/lib/utils'
-import { t, T } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Grid, Blockie, Loader, Row, Field, InputOnChangeData, Dropdown, Button, Section, DropdownProps, Header } from 'dcl-ui'
+import { isMobile } from 'dcl-dapps/dist/lib/utils'
+import { t, T } from 'dcl-dapps/dist/modules/translation/utils'
 
 import Profile from 'components/Profile'
 import LoggedInDetailPage from 'components/LoggedInDetailPage'

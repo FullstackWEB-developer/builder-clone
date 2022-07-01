@@ -1,6 +1,6 @@
 import { takeEvery, call, put, delay, select } from 'redux-saga/effects'
-import { getProfileOfAddress } from 'decentraland-dapps/dist/modules/profile/selectors'
-import { Profile } from 'decentraland-dapps/dist/modules/profile/types'
+import { getProfileOfAddress } from 'dcl-dapps/dist/modules/profile/selectors'
+import { Profile } from 'dcl-dapps/dist/modules/profile/types'
 import { BuilderAPI } from 'lib/api/builder'
 import {
   SetCollectionCurationAssigneeSuccessAction,

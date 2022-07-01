@@ -1,5 +1,5 @@
 import { Dispatch } from 'redux'
-import { SignInProps } from 'decentraland-ui'
+import { SignInProps } from 'dcl-ui'
 import { Deployment } from 'modules/deployment/types'
 import { openModal, OpenModalAction } from 'modules/modal/actions'
 import { clearDeploymentRequest, ClearDeploymentRequestAction } from 'modules/deployment/actions'

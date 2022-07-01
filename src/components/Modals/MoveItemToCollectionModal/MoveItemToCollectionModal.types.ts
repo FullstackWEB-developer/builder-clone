@@ -1,5 +1,5 @@
 import { Dispatch } from 'redux'
-import { ModalProps } from 'decentraland-dapps/dist/providers/ModalProvider/ModalProvider.types'
+import { ModalProps } from 'dcl-dapps/dist/providers/ModalProvider/ModalProvider.types'
 import { Collection } from 'modules/collection/types'
 import { setCollection, SetCollectionAction } from 'modules/item/actions'
 import { Item } from 'modules/item/types'

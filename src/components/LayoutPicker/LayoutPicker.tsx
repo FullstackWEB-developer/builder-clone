@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Icon } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Icon } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 
 import SquaresGrid from 'components/SquaresGrid'
 import { preventDefault } from 'lib/preventDefault'

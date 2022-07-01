@@ -1,7 +1,7 @@
 import { ChainId } from '@dcl/schemas'
 import { saveCollectionSuccess } from 'modules/collection/actions'
 import { Collection } from 'modules/collection/types'
-import { getChainIdByNetwork } from 'decentraland-dapps/dist/lib/eth'
+import { getChainIdByNetwork } from 'dcl-dapps/dist/lib/eth'
 import {
   clearSaveMultipleItems,
   downloadItemFailure,
@@ -19,7 +19,7 @@ import { Item } from './types'
 import { PaginatedResource } from 'lib/api/pagination'
 import { toItemObject } from './utils'
 
-jest.mock('decentraland-dapps/dist/lib/eth')
+jest.mock('dcl-dapps/dist/lib/eth')
 const getChainIdByNetworkMock: jest.Mock<typeof getChainIdByNetwork> = (getChainIdByNetwork as unknown) as jest.Mock<
   typeof getChainIdByNetwork
 >

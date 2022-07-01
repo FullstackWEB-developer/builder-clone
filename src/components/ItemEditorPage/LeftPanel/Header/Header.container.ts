@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import { push } from 'connected-react-router'
-import { getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getAddress } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { getCollections, hasViewAndEditRights } from 'modules/collection/selectors'
 import { getSelectedCollectionId, isReviewing } from 'modules/location/selectors'
 import { Collection } from 'modules/collection/types'

@@ -1,8 +1,8 @@
 import * as React from 'react'
 
-import { Layer, Button, Popup, Icon as DCLIcon } from 'decentraland-ui'
-import { t, T } from 'decentraland-dapps/dist/modules/translation/utils'
-import { getAnalytics } from 'decentraland-dapps/dist/modules/analytics/utils'
+import { Layer, Button, Popup, Icon as DCLIcon } from 'dcl-ui'
+import { t, T } from 'dcl-dapps/dist/modules/translation/utils'
+import { getAnalytics } from 'dcl-dapps/dist/modules/analytics/utils'
 
 import { Atlas } from 'components/Atlas'
 import Icon from 'components/Icon'

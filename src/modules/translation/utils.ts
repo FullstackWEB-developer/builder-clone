@@ -1,4 +1,4 @@
-import { Locale } from 'decentraland-ui'
+import { Locale } from 'dcl-ui'
 
 import * as languages from 'modules/translation/languages'
 

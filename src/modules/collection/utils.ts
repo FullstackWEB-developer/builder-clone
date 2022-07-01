@@ -1,6 +1,6 @@
 import { ChainId } from '@dcl/schemas'
 import { ContractName, getContract } from 'decentraland-transactions'
-import { Wallet } from 'decentraland-dapps/dist/modules/wallet/types'
+import { Wallet } from 'dcl-dapps/dist/modules/wallet/types'
 import { config } from 'config'
 import { locations } from 'routing/locations'
 import { isEqual, includes } from 'lib/address'

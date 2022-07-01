@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Row, Badge, Section, Narrow, Column, Button, Dropdown, Icon, Header, Empty, Layer, Stats } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Row, Badge, Section, Narrow, Column, Button, Dropdown, Icon, Header, Empty, Layer, Stats } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { LandType, Land, RoleType } from 'modules/land/types'
 import { Deployment } from 'modules/deployment/types'
 import { coordsToId, hoverStrokeByRole, hoverFillByRole } from 'modules/land/utils'

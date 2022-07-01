@@ -1,5 +1,5 @@
 import { Asset, RawAsset } from 'modules/asset/types'
-import { Omit } from 'decentraland-dapps/dist/lib/types'
+import { Omit } from 'dcl-dapps/dist/lib/types'
 
 export type AssetPack = {
   id: string

@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
-import { getData as getWallet } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
+import { getData as getWallet } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { RootState } from 'modules/common/types'
 import { getCollection, getLoading, getStatusByCollectionId } from 'modules/collection/selectors'
 import { setCollectionMintersRequest, SET_COLLECTION_MINTERS_REQUEST } from 'modules/collection/actions'

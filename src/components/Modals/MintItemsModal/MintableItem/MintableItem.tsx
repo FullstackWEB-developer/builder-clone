@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Row, Column, Field, Section, InputOnChangeData } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Row, Column, Field, Section, InputOnChangeData } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 
 import { isValid } from 'lib/address'
 import ItemImage from 'components/ItemImage'

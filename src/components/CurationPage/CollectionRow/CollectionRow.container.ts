@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import { push } from 'connected-react-router'
-import { getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getAddress } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { openModal } from 'modules/modal/actions'
 import { RootState } from 'modules/common/types'
 import { getCollectionItemCount } from 'modules/collection/selectors'

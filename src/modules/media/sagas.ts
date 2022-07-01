@@ -1,5 +1,5 @@
 import { select, delay, put, call, takeLatest } from 'redux-saga/effects'
-import { Omit } from 'decentraland-dapps/dist/lib/types'
+import { Omit } from 'dcl-dapps/dist/lib/types'
 import { getCurrentProject } from 'modules/project/selectors'
 import { dataURLToBlob } from 'modules/media/utils'
 import { PARCEL_SIZE } from 'modules/project/constants'

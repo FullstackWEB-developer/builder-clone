@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
 import { RootState } from 'modules/common/types'
 import { SET_COLLECTION_MANAGERS_REQUEST, setCollectionManagersRequest } from 'modules/collection/actions'
 import { getCollection, getLoading } from 'modules/collection/selectors'

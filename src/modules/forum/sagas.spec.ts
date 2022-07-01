@@ -1,6 +1,6 @@
 import { call, select } from '@redux-saga/core/effects'
-import { getProfileOfAddress } from 'decentraland-dapps/dist/modules/profile/selectors'
-import { Profile } from 'decentraland-dapps/dist/modules/profile/types'
+import { getProfileOfAddress } from 'dcl-dapps/dist/modules/profile/selectors'
+import { Profile } from 'dcl-dapps/dist/modules/profile/types'
 import { BuilderAPI } from 'lib/api/builder'
 import { getCollection } from 'modules/collection/selectors'
 import { Collection } from 'modules/collection/types'

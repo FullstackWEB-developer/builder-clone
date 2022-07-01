@@ -2,7 +2,7 @@ import { connect } from 'react-redux'
 
 import { RootState } from 'modules/common/types'
 import { openModal } from 'modules/modal/actions'
-import { getError as getWalletError, isConnecting } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getError as getWalletError, isConnecting } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { MapStateProps, MapDispatchProps, MapDispatch } from './WalletSignIn.types'
 import WalletSignIn from './WalletSignIn'
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { getAnalytics } from 'decentraland-dapps/dist/modules/analytics/utils'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
+import { getAnalytics } from 'dcl-dapps/dist/modules/analytics/utils'
 import { config } from 'config'
 
 import { NEW_ASSET_PACKS, isSameAssetPack } from 'modules/ui/sidebar/utils'

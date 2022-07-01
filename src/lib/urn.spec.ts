@@ -1,9 +1,9 @@
 import { ChainId, Network, WearableBodyShape } from '@dcl/schemas'
-import * as dappsEth from 'decentraland-dapps/dist/lib/eth'
-import { getChainIdByNetwork } from 'decentraland-dapps/dist/lib/eth'
+import * as dappsEth from 'dcl-dapps/dist/lib/eth'
+import { getChainIdByNetwork } from 'dcl-dapps/dist/lib/eth'
 import { buildThirdPartyURN, buildCatalystItemURN, decodeURN, URNType, URNProtocol, extractThirdPartyTokenId, isThirdParty } from './urn'
 
-jest.mock('decentraland-dapps/dist/lib/eth')
+jest.mock('dcl-dapps/dist/lib/eth')
 
 afterEach(() => jest.resetAllMocks())
 

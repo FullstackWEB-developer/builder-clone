@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { ModalNavigation, ModalActions, Button, Layer, Coord, Field } from 'decentraland-ui'
-import Modal from 'decentraland-dapps/dist/containers/Modal'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { ModalNavigation, ModalActions, Button, Layer, Coord, Field } from 'dcl-ui'
+import Modal from 'dcl-dapps/dist/containers/Modal'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { Atlas } from 'components/Atlas'
 import Info from 'components/Info'
 import {

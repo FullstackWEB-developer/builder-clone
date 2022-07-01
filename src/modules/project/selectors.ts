@@ -1,7 +1,7 @@
 import { createSelector } from 'reselect'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
-import { LoadingState } from 'decentraland-dapps/dist/modules/loading/reducer'
-import { getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
+import { LoadingState } from 'dcl-dapps/dist/modules/loading/reducer'
+import { getAddress } from 'dcl-dapps/dist/modules/wallet/selectors'
 
 import { isEqual } from 'lib/address'
 import { RootState } from 'modules/common/types'

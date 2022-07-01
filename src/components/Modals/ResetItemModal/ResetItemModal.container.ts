@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import { RootState } from 'modules/common/types'
 import ResetItemModal from './ResetItemModal'
 import { MapDispatch, MapDispatchProps, OwnProps, MapStateProps } from './ResetItemModal.types'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
 
 const mapStateProps = (state: RootState): MapStateProps => {
   return {

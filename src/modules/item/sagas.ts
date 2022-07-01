@@ -5,12 +5,12 @@ import { takeEvery, call, put, takeLatest, select, take, delay, fork, race, canc
 import { channel } from 'redux-saga'
 import { ChainId, Network } from '@dcl/schemas'
 import { ContractName, getContract } from 'decentraland-transactions'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
-import { ModalState } from 'decentraland-dapps/dist/modules/modal/reducer'
-import { getOpenModals } from 'decentraland-dapps/dist/modules/modal/selectors'
-import { closeModal } from 'decentraland-dapps/dist/modules/modal/actions'
-import { sendTransaction } from 'decentraland-dapps/dist/modules/wallet/utils'
-import { getChainIdByNetwork } from 'decentraland-dapps/dist/lib/eth'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
+import { ModalState } from 'dcl-dapps/dist/modules/modal/reducer'
+import { getOpenModals } from 'dcl-dapps/dist/modules/modal/selectors'
+import { closeModal } from 'dcl-dapps/dist/modules/modal/actions'
+import { sendTransaction } from 'dcl-dapps/dist/modules/wallet/utils'
+import { getChainIdByNetwork } from 'dcl-dapps/dist/lib/eth'
 import { BuilderClient, RemoteItem } from '@dcl/builder-client'
 import { Entity, EntityType } from 'dcl-catalyst-commons'
 import {
@@ -111,7 +111,7 @@ import { getData as getItemsById, getItems, getEntityByItemId, getCollectionItem
 import { ItemTooBigError } from './errors'
 import { buildZipContents, getMetadata, groupsOf, isValidText, generateCatalystImage, MAX_FILE_SIZE } from './utils'
 import { ItemPaginationData } from './reducer'
-import { getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getAddress } from 'dcl-dapps/dist/modules/wallet/selectors'
 
 export const SAVE_AND_EDIT_FILES_BATCH_SIZE = 8
 

@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { getAddress } from 'decentraland-dapps/dist/modules/wallet/selectors'
+import { getAddress } from 'dcl-dapps/dist/modules/wallet/selectors'
 import { RootState } from 'modules/common/types'
 import { saveAssetPackRequest, deleteAssetPackRequest } from 'modules/assetPack/actions'
 import { getProgress, getError, getFullAssetPacks, isLoading } from 'modules/assetPack/selectors'

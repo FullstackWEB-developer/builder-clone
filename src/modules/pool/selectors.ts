@@ -1,5 +1,5 @@
 import { createSelector } from 'reselect'
-import { isLoadingType } from 'decentraland-dapps/dist/modules/loading/selectors'
+import { isLoadingType } from 'dcl-dapps/dist/modules/loading/selectors'
 import { getLocation } from 'connected-react-router'
 
 import * as routing from 'routing/utils'

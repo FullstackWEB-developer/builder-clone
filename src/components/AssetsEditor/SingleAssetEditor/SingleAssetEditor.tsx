@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Field, TagField, SelectField, DropdownProps, Radio } from 'decentraland-ui'
-import { t } from 'decentraland-dapps/dist/modules/translation/utils'
+import { Field, TagField, SelectField, DropdownProps, Radio } from 'dcl-ui'
+import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { rawMappingsToObjectURL, revokeMappingsObjectURL, isGround } from 'modules/asset/utils'
 import { getContentsStorageUrl } from 'lib/api/builder'
 import { CategoryName } from 'modules/ui/sidebar/utils'
