@@ -140,7 +140,7 @@ export default class Routes extends React.Component<Props, State> {
     return (
       <>
         {this.renderRoutes()}
-        {this.renderIntercom()}
+        {/* {this.renderIntercom()} */}
       </>
     )
   }
