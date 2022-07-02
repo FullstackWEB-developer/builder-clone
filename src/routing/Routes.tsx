@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Switch, Route, Redirect } from 'react-router-dom'
 import { Center, Page, Responsive } from 'dcl-ui'
-import Intercom from 'dcl-dapps/dist/components/Intercom'
+// import Intercom from 'dcl-dapps/dist/components/Intercom'
 import { t } from 'dcl-dapps/dist/modules/translation/utils'
 
 import { locations } from 'routing/locations'
@@ -40,7 +40,7 @@ import CurationPage from 'components/CurationPage'
 import { isDevelopment } from 'lib/environment'
 
 import { Props, State } from './Routes.types'
-import { config } from 'config'
+// import { config } from 'config'
 
 export default class Routes extends React.Component<Props, State> {
   state = {
@@ -131,16 +131,16 @@ export default class Routes extends React.Component<Props, State> {
     )
   }
 
-  renderIntercom() {
-    const APP_ID = config.get('INTERCOM_APP_ID', '')
-    return <Intercom appId={APP_ID} settings={{ alignment: 'right' }} />
-  }
+  // renderIntercom() {
+  //   const APP_ID = config.get('INTERCOM_APP_ID', '')
+  //   return <Intercom appId={APP_ID} settings={{ alignment: 'right' }} />
+  // }
 
   render() {
     return (
       <>
         {this.renderRoutes()}
-        {this.renderIntercom()}
+        {/* {this.renderIntercom()} */}
       </>
     )
   }
