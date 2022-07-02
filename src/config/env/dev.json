@@ -6,7 +6,7 @@
   "ERC721_COLLECTION_BASE_URI": "https://peer.decentraland.zone/lambdas/collections/standard/erc721/",
   "BUILDER_SERVER_URL": "https://builder-api.decentraland.io/v1",
   "MARKETPLACE_URL": "https://api.decentraland.io/v1",
-  "MARKETPLACE_WEB_URL": "https://market.decentraland.io",
+  "MARKETPLACE_WEB_URL": "https://market-birdezkingdom.vercel.app",
   "LAND_MANAGER_URL": "https://api.thegraph.com/subgraphs/name/decentraland/land-manager-ropsten",
   "SHARE_SCENE_URL": "https://share.decentraland.zone/b",
   "INTERCOM_APP_ID": "z0h94kay",
@@ -26,7 +26,7 @@
   "IPFS_URL": "https://ipfs.infura.io:5001/api/v0/add?pin=false",
   "EXPLORER_URL": "https://play.decentraland.org",
   "TRANSACTIONS_API_URL": "https://transactions-api.decentraland.io/v1",
-  "ACCOUNT_URL": "https://account.decentraland.io",
+  "ACCOUNT_URL": "https://account-birdezkingdom.vercel.app",
   "DISCORD_URL": "https://dcl.gg/discord",
   "WEARABLES_ZIP_INFRA_URL": "http://a-test-url-com",
   "MIN_SALE_VALUE_IN_WEI": "1000000000000000000"

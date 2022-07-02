@@ -45,7 +45,7 @@ export default class IntroPopup extends PureComponent<Props, State> {
                       </a>
                     ),
                     account_link: (
-                      <a href={config.get('ACCOUNT_URL', 'https://account.decentraland.org')} target="_blank" rel="noopener noreferrer">
+                      <a href={config.get('ACCOUNT_URL', 'https://account-birdezkingdom.vercel.app')} target="_blank" rel="noopener noreferrer">
                         {t('intro_popup.account_link')}
                       </a>
                     ),

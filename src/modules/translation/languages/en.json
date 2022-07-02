@@ -118,7 +118,7 @@
     "title_create": "Create Asset Pack"
   },
   "banners": {
-    "promo_subtitle": "Custom Asset Packs now available in Decentraland!",
+    "promo_subtitle": "Custom Asset Packs now available in Birdezkingdom!",
     "promo_title": "Personalise your world",
     "top_banner_action": "Learn more.",
     "top_banner_left": "September 16-30 - Intense online creation with over $250k USD in prizes to share.",
@@ -179,7 +179,7 @@
   "claim_ens_page": {
     "title": "Claim a unique Name",
     "subtitle": "Unique names can be assigned to your avatar for use as an alias, or they can be assigned to parcels.{br} Assigning a name to a parcel or estate allows you to create a unique URL, like {exampleLink}, making it easy to send people to your LAND. When someone follows your new URL, they will be redirected to your LAND in {dclWorldLink}{br} Names are only available in Ethereum, and can only be claimed with Ethereum MANA {symbol}",
-    "world": "Decentraland!",
+    "world": "Birdezkingdom!",
     "name_label": "Name",
     "name_message": "Names may not exceed 15 characters, contain spaces, or include any non-alphanumeric characters.",
     "name_placeholder": "Your name goes here",
@@ -279,8 +279,8 @@
     "copy": "copy link",
     "copied": "copied",
     "uri": {
-      "facebook": "https://www.facebook.com/sharer/sharer.php?u={url}&description=Introducing my latest creation, now live in Decentraland! View it below and then help me build the Metaverse by adding one of your own.",
-      "twitter": "https://twitter.com/intent/tweet?text=Just added a new design to Decentraland via the Builder. Check it out below then create your own. The virtual world’s not gonna build itself you know! {url}&hashtags=builder,virtualworld,gaming"
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u={url}&description=Introducing my latest creation, now live in Birdezkingdom! View it below and then help me build the Metaverse by adding one of your own.",
+      "twitter": "https://twitter.com/intent/tweet?text=Just added a new design to Birdezkingdom via the Builder. Check it out below then create your own. The virtual world’s not gonna build itself you know! {url}&hashtags=builder,virtualworld,gaming"
     }
   },
   "deployment_status": {
@@ -369,7 +369,7 @@
     "pool": {
       "action": "Submit",
       "contact_information": "Contact information",
-      "i_accept_the": "By clicking \"submit\" you agree to receive news from Decentraland",
+      "i_accept_the": "By clicking \"submit\" you agree to receive news from Birdezkingdom",
       "progress": "Processing",
       "sign_in": {
         "action": "Sign In",
@@ -631,8 +631,8 @@
     "gallery_title": "Check out work from Builder users!",
     "learn_more": "Learn more about the Builder",
     "message": "The Builder is only available on desktop right now. Sign up to receive updates and check it out on your computer.",
-    "reminder_body": "Hey there!\n\nWhoops! It looks like you tried to use the Builder from a mobile device!\nThe Builder only runs on desktop and laptop computers. Grab your nearest computer, and try again at https://builder.decentraland.org\n\nHappy building!\n\nThe Decentraland Team",
-    "reminder_subject": "Reminder: Try out Decentraland's Builder",
+    "reminder_body": "Hey there!\n\nWhoops! It looks like you tried to use the Builder from a mobile device!\nThe Builder only runs on desktop and laptop computers. Grab your nearest computer, and try again at https://builder-birdezkingdom.vercel.app\n\nHappy building!\n\nThe Birdezkingdom Team",
+    "reminder_subject": "Reminder: Try out Birdezkingdom's Builder",
     "secondary_hero": {
       "action": "Send yourself a reminder",
       "title": "Want to build something when you get to your computer?"
@@ -709,7 +709,7 @@
     "set_resolver": "Set Resolver",
     "set_resolver_explanation": "This allows your name to be linked to a land",
     "set_content": "Set Content",
-    "set_content_explanation": "This resolves your name with a link to your land in Decentraland"
+    "set_content_explanation": "This resolves your name with a link to your land in Birdezkingdom"
   },
   "ens_select_land_page": {
     "title": "Use {name} as a link",
@@ -935,7 +935,7 @@
   },
   "tutorial_modal": {
     "slide0": {
-      "description": "This is Decentraland’s new Scene builder. Before you get started, let us show you around.",
+      "description": "This is Birdezkingdom’s new Scene builder. Before you get started, let us show you around.",
       "title": "Welcome to the Builder!"
     },
     "slide1": {
@@ -1097,8 +1097,8 @@
     "new_item": "New Item",
     "mint_items": "Mint Items",
     "on_sale": "On sale",
-    "set_on_sale_popup": "This will allow your collection to be sold in the Decentraland Marketplace.",
-    "unset_on_sale_popup": "This collection is on sale in the Decentraland Marketplace.",
+    "set_on_sale_popup": "This will allow your collection to be sold in the Birdezkingdom Marketplace.",
+    "unset_on_sale_popup": "This collection is on sale in the Birdezkingdom Marketplace.",
     "notice": "Cool! Now you can start working on your items. {editor_link} to open the editor or click the edit button on any item.",
     "start_adding_items": "Looking good! Start adding items to your new collection",
     "cant_remove": "You will not be able to add or remove items after publishing your collection.",
@@ -1182,7 +1182,7 @@
     "second_paragraph": "You will not be able to add or delete items after you publish your collection.",
     "third_paragraph": "You won’t be able to change the name of the collection. Please ensure it’s spelled correctly and doesn’t violate intellectual property rights.",
     "fourth_paragraph": "You will be able to see your items in the marketplace but they will be available for sale once the collection is validated by the DAO.",
-    "items_breakdown_title": "You are about to publish {count} {count, plural, one {item} other {items}}. The MANA fee for each collection goes to the Decentraland DAO, where it is used to support the growth of the community through grants, events, and prizes.",
+    "items_breakdown_title": "You are about to publish {count} {count, plural, one {item} other {items}}. The MANA fee for each collection goes to the Birdezkingdom DAO, where it is used to support the growth of the community through grants, events, and prizes.",
     "tos_title": "I hereby represent and warrant that:",
     "tos_first_condition": "1: The submitted Wearable/s is in full compliance with the {terms_of_use} and {content_policy}, which I acknowledge and accept.",
     "tos_second_condition": "2: I have sufficient Intellectual Property Rights over the submitted Wearable/s.",
@@ -1241,7 +1241,7 @@
   },
   "sell_collection_modal": {
     "title": "Do you want to sell your items?",
-    "turn_on_description": "By turning this switch on your collection will be available for purchase in the Decentraland Marketplace.",
+    "turn_on_description": "By turning this switch on your collection will be available for purchase in the Birdezkingdom Marketplace.",
     "turn_on": "Turn On",
     "turn_off_description": "By turning this switch off your collection will not longer be available for purchase.",
     "turn_off": "Turn Off",

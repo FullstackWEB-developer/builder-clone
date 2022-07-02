@@ -34,6 +34,7 @@ export function getNewEditorScene(project: Project): EditorScene {
     display: {
       title: project.title
     },
+    // TODO: remove brand for Birdezkingdom
     owner: 'Decentraland',
     contact: {
       name: 'Decentraland',

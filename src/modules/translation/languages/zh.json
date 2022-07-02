@@ -113,7 +113,7 @@
     "title_create": "创造Asset Pack"
   },
   "banners": {
-    "promo_subtitle": "自定义资产包现在在Decentraland中可用！",
+    "promo_subtitle": "自定义资产包现在在Birdezkingdom中可用！",
     "promo_title": "个性化您的世界",
     "top_banner_action": "学到更多。",
     "top_banner_left": "9月16日至30日-激烈的在线创作，分享了超过25万美元的奖品。",
@@ -174,7 +174,7 @@
   "claim_ens_page": {
     "title": "索取唯一名称",
     "subtitle": "可以将唯一名称分配给您的化身以用作别名，也可以将它们分配给宗地和地产。{br}为宗地或地产分配名称可以使您创建唯一的URL，例如{exampleLink} 轻松将人们送往您的LAND。 当有人使用您的新网址时，他们将在{dclWorldLink}中重定向到您的LAND{br} 名称仅在以太坊中提供，并且只能使用以太坊 MANA {symbol} 进行认领",
-    "world": "Decentraland!",
+    "world": "Birdezkingdom!",
     "name_label": "名称",
     "name_message": "名称不得超过15个字符，不得包含空格或任何非字母数字字符。",
     "name_placeholder": "你的名字在这里",
@@ -276,8 +276,8 @@
     "copy": "复制链接",
     "copied": "已复制",
     "uri": {
-      "facebook": "https://www.facebook.com/sharer/sharer.php?u={url}&description=我的最新作品已经在 Decentraland 中安家了！ 敬请查看，并且添加自己的场景共建虚拟世界。",
-      "twitter": "https://twitter.com/intent/tweet?text=刚刚通过 Builder 在 Decentraland 中部署了我的新设计。 敬请查看，也请您创建您自己的场景。 因为虚拟世界也不会凭空而建! {url}&hashtags=builder,virtualworld,gaming"
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u={url}&description=我的最新作品已经在 Birdezkingdom 中安家了！ 敬请查看，并且添加自己的场景共建虚拟世界。",
+      "twitter": "https://twitter.com/intent/tweet?text=刚刚通过 Builder 在 Birdezkingdom 中部署了我的新设计。 敬请查看，也请您创建您自己的场景。 因为虚拟世界也不会凭空而建! {url}&hashtags=builder,virtualworld,gaming"
     }
   },
   "deployment_status": {
@@ -366,7 +366,7 @@
     "pool": {
       "action": "提交",
       "contact_information": "联系信息",
-      "i_accept_the": "点击 \"提交\" 同意接受来自 Decentraland 的新闻",
+      "i_accept_the": "点击 \"提交\" 同意接受来自 Birdezkingdom 的新闻",
       "progress": "正在处理",
       "sign_in": {
         "action": "登录",
@@ -625,8 +625,8 @@
     "gallery_title": "查看内容编辑用户的作品!",
     "learn_more": "了解有关Builder的更多信息",
     "message": "内容编辑器目前只支持桌面版，注册以接收更新并在电脑上查看。",
-    "reminder_body": "您好！\n看来您试图在移动设备上使用内容编辑器\n目前内容编辑器只能运行在台式机和笔记本电脑上。拿起你最近的笔记本电脑或台式电脑，使用 https://builder.decentraland.org\n\n快乐的建筑！再试 !\n\n祝开发快乐！\n\nThe Decentraland Team",
-    "reminder_subject": "提醒：试试Decentraland的Builder",
+    "reminder_body": "您好！\n看来您试图在移动设备上使用内容编辑器\n目前内容编辑器只能运行在台式机和笔记本电脑上。拿起你最近的笔记本电脑或台式电脑，使用 https://builder-birdezkingdom.vercel.app\n\n快乐的建筑！再试 !\n\n祝开发快乐！\n\nThe Birdezkingdom Team",
+    "reminder_subject": "提醒：试试Birdezkingdom的Builder",
     "secondary_hero": {
       "action": "发送提醒",
       "title": "当回到电脑前就创作场景?"
@@ -674,7 +674,7 @@
     "set_resolver": "设置解析器",
     "set_resolver_explanation": "这样可以将您的名字链接到包裹",
     "set_content": "设定内容",
-    "set_content_explanation": "这会通过链接到Decentraland's World中的LAND的方式解析您的姓名"
+    "set_content_explanation": "这会通过链接到Birdezkingdom's World中的LAND的方式解析您的姓名"
   },
   "ens_select_land_page": {
     "title": "分配{name}",
@@ -929,7 +929,7 @@
   },
   "tutorial_modal": {
     "slide0": {
-      "description": "这是 Decentraland 的新场景构建器。",
+      "description": "这是 Birdezkingdom 的新场景构建器。",
       "title": "欢迎您的到来！"
     },
     "slide1": {
@@ -1088,8 +1088,8 @@
     "new_item": "新物品",
     "mint_items": "薄荷项目",
     "on_sale": "特价中",
-    "set_on_sale_popup": "这将允许您的收藏在 Decentraland 市场上出售。",
-    "unset_on_sale_popup": "该系列在 Decentraland 市场上有售。",
+    "set_on_sale_popup": "这将允许您的收藏在 Birdezkingdom 市场上出售。",
+    "unset_on_sale_popup": "该系列在 Birdezkingdom 市场上有售。",
     "publish": "发布",
     "notice": "凉爽的！ 现在，您可以开始处理项目了。 {editor_link}打开编辑器，或在任何项目上单击“编辑”按钮。",
     "start_adding_items": "看起来不错！ 现在您可以开始将项目添加到您的收藏中了。",
@@ -1174,7 +1174,7 @@
     "second_paragraph": "发布收藏集后，您将无法添加或删除项目",
     "third_paragraph": "您将无法更改集合的名称。请确保拼写正确且不侵犯知识产权。",
     "fourth_paragraph": "您收藏中的物品将出现在市场中，但只有获得批准，才能出售。",
-    "items_breakdown_title": "“您即将发布{count} {count, 复数，一个{item} 其他{items}}。您需要Polygon MANA 来支付交易费用，所有这些费用都交给Decentraland DAO。DAO 使用这个MANA 来支付 用于对您提交的内容进行技术审查，并通过赠款、活动和奖品支持社区的发展”",
+    "items_breakdown_title": "“您即将发布{count} {count, 复数，一个{item} 其他{items}}。您需要Polygon MANA 来支付交易费用，所有这些费用都交给Birdezkingdom DAO。DAO 使用这个MANA 来支付 用于对您提交的内容进行技术审查，并通过赠款、活动和奖品支持社区的发展”",
     "tos_title": "我在此声明并保证：",
     "tos_first_condition": "1：提交穿戴式是完全符合{TERMS_OF_USE}和{} content_policy，我承认并接受。",
     "tos_second_condition": "2：我对提交的穿戴式拥有足够的知识产权。",
@@ -1218,7 +1218,7 @@
   },
   "sell_collection_modal": {
     "title": "您想出售您的物品吗？",
-    "turn_on_description": "通过打开此开关，您的收藏将可以在 Decentraland 市场上购买。",
+    "turn_on_description": "通过打开此开关，您的收藏将可以在 Birdezkingdom 市场上购买。",
     "turn_on": "打开",
     "turn_off_description": "关闭此开关后，您的收藏将不再可用。",
     "turn_off": "关掉",

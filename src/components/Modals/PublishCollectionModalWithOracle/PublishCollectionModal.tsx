@@ -222,7 +222,7 @@ export default class PublishCollectionModal extends React.PureComponent<Props, S
           </div>
           <Field
             label={t('global.email')}
-            placeholder={'email@decentraland.org'}
+            placeholder={'email@birdezkingdomcom'}
             onFocus={this.handleEmailFocus}
             onBlur={this.handleEmailBlur}
             onChange={this.handleEmailChange}

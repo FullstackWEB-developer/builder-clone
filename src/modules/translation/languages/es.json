@@ -122,7 +122,7 @@
     "title_create": "Crear Asset Pack"
   },
   "banners": {
-    "promo_subtitle": "¡Tus Asset Packs personales ahora disponibles en Decentraland!",
+    "promo_subtitle": "¡Tus Asset Packs personales ahora disponibles en Birdezkingdom!",
     "promo_title": "Personaliza tu mundo",
     "top_banner_action": "Descubre más.",
     "top_banner_left": "Septiembre 16-30 - Súmate a la creación con más de $250k USD en premios para compartir.",
@@ -182,7 +182,7 @@
   "claim_ens_page": {
     "title": "Reclamar un nombre único",
     "subtitle": "Se pueden asignar nombres únicos a su avatar para usarlos como un alias, o se pueden asignar a parcelas y propiedades. {br} Asignar un nombre a una parcela o propiedad le permite crear una URL única, como {exampleLink}, por lo que fácilmente podrá enviar personas a su LAND. Cuando alguien siga su nueva URL, será redirigido a su LAND en {dclWorldLink}{br} Los nombres estan disponibles solo en Ethereum, y solo pueden ser reclamados con MANA de Ethereum {symbol}",
-    "world": "Decentraland!",
+    "world": "Birdezkingdom!",
     "name_label": "Nombre",
     "name_message": "Los nombres no pueden exceder los 15 caracteres, contener espacios o incluir caracteres no alfanuméricos.",
     "name_placeholder": "Tu nombre va aquí",
@@ -284,8 +284,8 @@
     "copy": "Copiar enlace",
     "copied": "Copiado",
     "uri": {
-      "facebook": "https://www.facebook.com/sharer/sharer.php?u={url}&description=¡Presentando mi última creación, ahora vivo en Decentraland! Mírala a continuación y luego ayúdame a construir el Metaverso agregando las tuyas.",
-      "twitter": "https://twitter.com/intent/tweet?text=Acabo de agregar un nuevo diseño a Decentraland a través del Builder. Mírala a continuación y luego crea el tuyo propio. ¡El mundo virtual no se va a construir solo! {url}&hashtags=builder,virtualworld,gaming"
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u={url}&description=¡Presentando mi última creación, ahora vivo en Birdezkingdom! Mírala a continuación y luego ayúdame a construir el Metaverso agregando las tuyas.",
+      "twitter": "https://twitter.com/intent/tweet?text=Acabo de agregar un nuevo diseño a Birdezkingdom a través del Builder. Mírala a continuación y luego crea el tuyo propio. ¡El mundo virtual no se va a construir solo! {url}&hashtags=builder,virtualworld,gaming"
     }
   },
   "deployment_status": {
@@ -374,7 +374,7 @@
     "pool": {
       "action": "Enviar",
       "contact_information": "Información de contacto",
-      "i_accept_the": "Al hacer click sobre \"enviar\" aceptas recibir noticias de Decentraland",
+      "i_accept_the": "Al hacer click sobre \"enviar\" aceptas recibir noticias de Birdezkingdom",
       "progress": "Procesando",
       "sign_in": {
         "action": "Iniciar Sesión",
@@ -641,8 +641,8 @@
     "gallery_title": "Esto es lo que se está costruyendo",
     "learn_more": "Aprende más acerca del Builder",
     "message": "El Builder aún no funciona en dispositivos móviles. Suscribete para recibir actualizaciones y pruebalo en tu PC.",
-    "reminder_body": "¡Ey!\n\n¡Al parecer has intentado utilizar el Builder desde un dispositivo movil!\nEl Builder solo funciona en computadoras de escritorio y notebooks. Cuando estes listo ingresa a https://builder.decentraland.org\n\n¡Que lo disfrutes!\n\nEl equipo de Decentraland",
-    "reminder_subject": "Recordatorio: Probar el Builder de Decentraland",
+    "reminder_body": "¡Ey!\n\n¡Al parecer has intentado utilizar el Builder desde un dispositivo movil!\nEl Builder solo funciona en computadoras de escritorio y notebooks. Cuando estes listo ingresa a https://builder-birdezkingdom.vercel.app\n\n¡Que lo disfrutes!\n\nEl equipo de Birdezkingdom",
+    "reminder_subject": "Recordatorio: Probar el Builder de Birdezkingdom",
     "secondary_hero": {
       "action": "Enviar recordatorio",
       "title": "¿Quieres comenzar a construir cuando estes en tu PC?"
@@ -689,7 +689,7 @@
     "set_resolver": "Establecer Resolver",
     "set_resolver_explanation": "Esto permite que su nombre esté vinculado a una parcela",
     "set_content": "Establecer Contenido",
-    "set_content_explanation": "Esto resuelve su nombre con un enlace a su LAND en Decentraland"
+    "set_content_explanation": "Esto resuelve su nombre con un enlace a su LAND en Birdezkingdom"
   },
   "ens_select_land_page": {
     "title": "Asignar {name}",
@@ -946,7 +946,7 @@
   },
   "tutorial_modal": {
     "slide0": {
-      "description": "Este es el nuevo constructor de Escenas de Decentraland. Antes de comenzar, déjanos mostrarte cómo funciona.",
+      "description": "Este es el nuevo constructor de Escenas de Birdezkingdom. Antes de comenzar, déjanos mostrarte cómo funciona.",
       "title": "¡Bienvenido al Builder!"
     },
     "slide1": {
@@ -1108,8 +1108,8 @@
     "new_item": "Nuevo Item",
     "mint_items": "Crear Items",
     "on_sale": "En venta",
-    "set_on_sale_popup": "Esto permitirá que tu colección sea vendida en el Mercado de Decentraland.",
-    "unset_on_sale_popup": "Esta colección está en venta en el Mercado de Decentraland.",
+    "set_on_sale_popup": "Esto permitirá que tu colección sea vendida en el Mercado de Birdezkingdom.",
+    "unset_on_sale_popup": "Esta colección está en venta en el Mercado de Birdezkingdom.",
     "notice": "Bien! Ahora puedes empezar a trabajar con tus items. {editor_link} para abrir el editor o edita cada item.",
     "start_adding_items": "¡Se ve bien! Ahora puedes comenzar a agregar items a tu colección.",
     "cant_remove": "No podrás agregar o remover items de tu colección una vez que esté publicada.",
@@ -1235,7 +1235,7 @@
   },
   "sell_collection_modal": {
     "title": "¿Quieres vender tus items?",
-    "turn_on_description": "Al activar esta opción tu colección estará en venta en el mercado de Decentraland.",
+    "turn_on_description": "Al activar esta opción tu colección estará en venta en el mercado de Birdezkingdom.",
     "turn_on": "Activar",
     "turn_off_description": "Al desactivar esta opción tu colección ya no estará en venta.",
     "turn_off": "Desactivar",
