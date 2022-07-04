@@ -1,15 +1,16 @@
 import * as React from 'react'
 import { DropTarget } from 'react-dnd'
-import Lottie from 'react-lottie'
+// import Lottie from 'react-lottie'
 import { config } from 'config'
 
 import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { ASSET_TYPE } from 'components/AssetCard/AssetCard.dnd'
 import { PreviewType } from 'modules/editor/types'
 import { convertToUnityKeyboardEvent } from 'modules/editor/utils'
+import { Loader } from 'dcl-ui'
 import { previewTarget, collect, CollectedProps } from './Preview.dnd'
 import { EditorWindow, Props, State } from './Preview.types'
-import animationData from './loader.json'
+// import animationData from './loader.json'
 import './Preview.css'
 
 const editorWindow = window as EditorWindow
@@ -108,7 +109,8 @@ class Preview extends React.Component<Props & CollectedProps, State> {
       <div className="Preview-wrapper">
         {isLoadingResources && (
           <div className="overlay">
-            <Lottie
+            <Loader active size="large" />
+            {/* <Lottie
               height={100}
               width={100}
               options={{
@@ -119,7 +121,7 @@ class Preview extends React.Component<Props & CollectedProps, State> {
                   preserveAspectRatio: 'xMidYMid slice'
                 }
               }}
-            />
+            /> */}
             <div id="progress-bar" className="progress ingame">
               <div className="full"></div>
             </div>
