@@ -7,7 +7,7 @@ import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { ASSET_TYPE } from 'components/AssetCard/AssetCard.dnd'
 import { PreviewType } from 'modules/editor/types'
 import { convertToUnityKeyboardEvent } from 'modules/editor/utils'
-import { Loader } from 'dcl-ui'
+// import { Loader } from 'dcl-ui'
 import { previewTarget, collect, CollectedProps } from './Preview.dnd'
 import { EditorWindow, Props, State } from './Preview.types'
 // import animationData from './loader.json'
@@ -109,7 +109,7 @@ class Preview extends React.Component<Props & CollectedProps, State> {
       <div className="Preview-wrapper">
         {isLoadingResources && (
           <div className="overlay">
-            <Loader active size="large" />
+            {/* <Loader active size="large" /> */}
             {/* <Lottie
               height={100}
               width={100}
