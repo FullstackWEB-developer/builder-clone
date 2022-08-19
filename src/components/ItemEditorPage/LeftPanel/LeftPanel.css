@@ -2,6 +2,7 @@
   width: var(--item-editor-panel-width);
   flex: none;
   background-color: var(--background);
+  border-right: 1px solid rgba(115, 110, 125, 0.3);
   position: relative;
   overflow: auto;
   display: flex;

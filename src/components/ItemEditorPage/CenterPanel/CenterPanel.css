@@ -1,7 +1,7 @@
 .CenterPanel {
   position: relative;
   flex: 1 1 auto;
-  background-color: #4c4852;
+  /* background-color: #4c4852; */
 }
 
 .CenterPanel .WearablePreview {
@@ -19,7 +19,7 @@
 }
 
 .CenterPanel .footer .option {
-  background-color: var(--light-gray);
+  background-color: var(--gray);
   padding: 4px 12px 6px 12px;
   border-radius: 4px;
   display: inline-block;
@@ -64,6 +64,6 @@
   margin-bottom: 0;
 }
 
-.CenterPanel .footer .ui.dropdown .menu {
+/* .CenterPanel .footer .ui.dropdown .menu {
   background-color: var(--smart-grey);
-}
+} */
