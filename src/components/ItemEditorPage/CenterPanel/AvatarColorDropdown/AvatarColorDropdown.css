@@ -6,7 +6,7 @@
 }
 
 .AvatarColorDropdown.ui.dropdown.visible .colors-menu {
-  background-color: var(--dark-two);
+  /* background-color: var(--dark-two); */
   display: flex !important;
   flex-wrap: wrap;
   padding: 0;

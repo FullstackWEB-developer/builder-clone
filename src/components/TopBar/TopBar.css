@@ -1,6 +1,7 @@
 .ui.grid.TopBar {
   height: var(--topbar-height);
   background: var(--void);
+  color: var(--secondary);
 }
 
 .ui.grid.TopBar > .column:not(.row) {
@@ -9,6 +10,7 @@
 
 .TopBar .ui.header.medium {
   font-size: 17px;
+  color: var(--secondary);
 }
 
 .TopBar .row {
