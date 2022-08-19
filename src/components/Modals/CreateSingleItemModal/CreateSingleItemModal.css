@@ -3,7 +3,8 @@
 }
 
 .CreateSingleItemModal .details {
-  background-color: rgba(var(--dark-raw), 0.48);
+  /* background-color: rgba(var(--dark-raw), 0.48); */
+  background-color: rgba(var(--dark-raw), 0.1);
   border-radius: 8px;
   width: 100%;
 }

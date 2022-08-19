@@ -1,9 +1,8 @@
 .ui.dropdown .menu {
-  background-color: var(--smart-grey);
-}
+  background-color: var(--light-gray);}
 
 .ui.dropdown .menu > .divider {
-  background-color: var(--light-gray);
+  background-color: var(--smart-grey);
 }
 
 /* Semantic-UI: https://github.com/Semantic-Org/Semantic-UI/issues/4285#issuecomment-232974723 */

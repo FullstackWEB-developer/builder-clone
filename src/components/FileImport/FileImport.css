@@ -6,7 +6,7 @@
   border-radius: 6px;
   height: 276px;
   width: 100%;
-  background-color: rgba(var(--dark-raw), 0.48);
+  background-color: rgba(var(--dark-raw), 0.2);
   outline: none;
   user-select: none;
   overflow: auto;
