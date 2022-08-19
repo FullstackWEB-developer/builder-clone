@@ -13,9 +13,9 @@ export default class Navigation extends React.PureComponent<Props> {
         <Tabs.Tab active={activeTab === NavigationTab.SCENES} onClick={() => onNavigate(locations.root())}>
           {t('navigation.scenes')}
         </Tabs.Tab>
-        <Tabs.Tab active={activeTab === NavigationTab.LAND} onClick={() => onNavigate(locations.land())}>
+        {/* <Tabs.Tab active={activeTab === NavigationTab.LAND} onClick={() => onNavigate(locations.land())}>
           {t('navigation.land')}
-        </Tabs.Tab>
+        </Tabs.Tab> */}
         <Tabs.Tab active={activeTab === NavigationTab.NAMES} onClick={() => onNavigate(locations.ens())}>
           {t('navigation.names')}
         </Tabs.Tab>
