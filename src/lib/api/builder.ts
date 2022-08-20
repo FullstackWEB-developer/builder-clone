@@ -480,10 +480,11 @@ export class BuilderAPI extends BaseAPI {
   async request(method: AxiosRequestConfig['method'], path: string, params?: APIParam | null, config?: AxiosRequestConfig) {
     let authConfig = {}
     let headers = {}
+    
     if (config) {
       authConfig = { ...config }
       if (config.headers) {
-        headers = { ...config.headers }
+        headers = { ...config.headers, 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/x-www-form-urlencoded' }
       }
     }
     const authHeaders = this.authorization.createAuthHeaders(method, path)
