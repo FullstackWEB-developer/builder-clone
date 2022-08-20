@@ -484,13 +484,14 @@ export class BuilderAPI extends BaseAPI {
     if (config) {
       authConfig = { ...config }
       if (config.headers) {
-        headers = { ...config.headers, 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/x-www-form-urlencoded' }
+        headers = { ...config.headers }
       }
     }
     const authHeaders = this.authorization.createAuthHeaders(method, path)
     headers = {
       ...headers,
-      ...authHeaders
+      ...authHeaders,
+      'Access-Control-Allow-Origin': '*'
     }
     authConfig = { ...authConfig, headers }
 
