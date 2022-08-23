@@ -2,7 +2,8 @@
 import 'dcl-ui/lib/styles.css'
 
 // Theme
-import 'dcl-ui/lib/light-theme.css'
+// import 'dcl-ui/lib/light-theme.css'
+import 'dcl-ui/lib/dark-theme.css'
 
 // Override third party Component styles here:
 import './components/Grid.css'
