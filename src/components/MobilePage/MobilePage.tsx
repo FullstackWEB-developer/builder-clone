@@ -1,6 +1,6 @@
 import * as React from 'react'
 import isMobile from 'ismobilejs'
-import { Button, Hero, Header, Page } from 'dcl-ui'
+import { Button, Hero, Page } from 'dcl-ui'
 import { t } from 'dcl-dapps/dist/modules/translation/utils'
 import { getLocalStorage } from 'dcl-dapps/dist/lib/localStorage'
 import { getAnalytics } from 'dcl-dapps/dist/modules/analytics/utils'
@@ -70,18 +70,6 @@ export default class MobilePage extends React.PureComponent<Props, State> {
               onChange={this.handleEmailChange}
               onWatchVideo={this.handleOpenVideo}
             />
-
-            <div className="gallery">
-              <Header size="huge" textAlign="center">
-                {t('mobile_page.gallery_title')}
-              </Header>
-              <div className="thumbnail-column">
-                <div className="thumbnail thumb-1" />
-                <div className="thumbnail thumb-2" />
-                <div className="thumbnail thumb-3" />
-                <div className="thumbnail thumb-4" />
-              </div>
-            </div>
 
             {isMobile().any ? (
               <Hero className="secondary-hero" centered>

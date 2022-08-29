@@ -491,7 +491,7 @@ export class BuilderAPI extends BaseAPI {
     headers = {
       ...headers,
       ...authHeaders,
-      'Access-Control-Allow-Origin': '*'
+      // 'Access-Control-Allow-Origin': '*'
     }
     authConfig = { ...authConfig, headers }
 

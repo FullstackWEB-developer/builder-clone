@@ -1,12 +1,12 @@
 import * as React from 'react'
 import isMobile from 'ismobilejs'
-import { Hero, Button, Form, Field } from 'dcl-ui'
+import { Hero, Form } from 'dcl-ui'
 import { t, T } from 'dcl-dapps/dist/modules/translation/utils'
 
 import { Props } from './MobilePageHero.types'
 import './MobilePageHero.css'
 
-const PUBLIC_URL = process.env.PUBLIC_URL
+// const PUBLIC_URL = process.env.PUBLIC_URL
 
 export default class MobilePageHero extends React.PureComponent<Props> {
   handleSubmit = () => {
@@ -22,7 +22,7 @@ export default class MobilePageHero extends React.PureComponent<Props> {
   }
 
   render() {
-    const { email, isLoading, hasMobileEmail } = this.props
+    // const { email, isLoading, hasMobileEmail } = this.props
 
     return (
       <Hero className="MobilePageHero" centered>
@@ -37,7 +37,7 @@ export default class MobilePageHero extends React.PureComponent<Props> {
             <Form onSubmit={this.handleSubmit}>
               <p className="message">{t('mobile_page.message')}</p>
 
-              {!hasMobileEmail ? (
+              {/* {!hasMobileEmail ? (
                 <div className="form-container">
                   <Field
                     type="email"
@@ -54,20 +54,20 @@ export default class MobilePageHero extends React.PureComponent<Props> {
                 </div>
               ) : (
                 <div className="success">{t('mobile_page.success')}</div>
-              )}
+              )} */}
             </Form>
           ) : (
             <p className="message">{t('mobile_page.desktop_too_narrow')}</p>
           )}
-          <Button className="hollow" onClick={this.handleWatchVideo}>
+          {/* <Button className="hollow" onClick={this.handleWatchVideo}>
             {t('mobile_page.learn_more')}
-          </Button>
+          </Button> */}
         </Hero.Actions>
 
-        <Hero.Content>
+        {/* <Hero.Content>
           <video src={`${PUBLIC_URL}/videos/hero_mobile.mp4`} autoPlay loop muted playsInline />
           <div className="overlay" />
-        </Hero.Content>
+        </Hero.Content> */}
       </Hero>
     )
   }
