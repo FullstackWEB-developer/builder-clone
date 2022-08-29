@@ -6,7 +6,7 @@
   "ERC721_COLLECTION_BASE_URI": "https://peer.decentraland.org/lambdas/collections/standard/erc721/",
   "BUILDER_SERVER_URL": "https://builder-api.decentraland.net/v1",
   "MARKETPLACE_URL": "https://api.decentraland.org/v1",
-  "MARKETPLACE_WEB_URL": "https://market-birdezkingdom.vercel.app",
+  "MARKETPLACE_WEB_URL": "https://market.birdezkingdom.com",
   "LAND_MANAGER_URL": "https://api.thegraph.com/subgraphs/name/decentraland/land-manager",
   "SHARE_SCENE_URL": "https://share.decentraland.org/b",
   "INTERCOM_APP_ID": "z0h94kay",
@@ -26,7 +26,7 @@
   "IPFS_URL": "https://ipfs.infura.io:5001/api/v0/add?pin=false",
   "EXPLORER_URL": "https://play.decentraland.org",
   "TRANSACTIONS_API_URL": "https://transactions-api.decentraland.net/v1",
-  "ACCOUNT_URL": "https://account-birdezkingdom.vercel.app",
+  "ACCOUNT_URL": "https://account.birdezkingdom.com",
   "DISCORD_URL": "https://dcl.gg/discord",
   "WEARABLES_ZIP_INFRA_URL": "https://docs.decentraland.org/decentraland/linked-wearables/#creating-linked-wearables-in-bulk",
   "MIN_SALE_VALUE_IN_WEI": "1000000000000000000"

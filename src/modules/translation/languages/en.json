@@ -178,18 +178,18 @@
   },
   "claim_ens_page": {
     "title": "Claim a unique Name",
-    "subtitle": "Unique names can be assigned to your avatar for use as an alias, or they can be assigned to parcels.{br} Assigning a name to a parcel or estate allows you to create a unique URL, like {exampleLink}, making it easy to send people to your LAND. When someone follows your new URL, they will be redirected to your LAND in {dclWorldLink}{br} Names are only available in Ethereum, and can only be claimed with Ethereum MANA {symbol}",
+    "subtitle": "Unique names can be assigned to your avatar for use as an alias, or they can be assigned to parcels.{br} Assigning a name to a parcel or estate allows you to create a unique URL, like {exampleLink}, making it easy to send people to your LAND. When someone follows your new URL, they will be redirected to your LAND in {dclWorldLink}{br} Names are only available in Ethereum, and can only be claimed with Ethereum SEED {symbol}",
     "world": "Birdezkingdom!",
     "name_label": "Name",
     "name_message": "Names may not exceed 15 characters, contain spaces, or include any non-alphanumeric characters.",
     "name_placeholder": "Your name goes here",
     "repeated_message": "This name is not available.",
     "error_message": "There is a network error, please try again",
-    "radio_label": "MANA approved",
+    "radio_label": "SEED approved",
     "claim_button": "Claim ",
-    "need_mana_message": "Authorize the {contract_link} contract to operate MANA on your behalf",
-    "mana_not_allowed": "You need to authorize enough MANA to claim a new name",
-    "not_enough_mana": "You don't have enough MANA to claim a new name"
+    "need_mana_message": "Authorize the {contract_link} contract to operate SEED on your behalf",
+    "mana_not_allowed": "You need to authorize enough SEED to claim a new name",
+    "not_enough_mana": "You don't have enough SEED to claim a new name"
   },
   "create_single_item_modal": {
     "title": "New Item",
@@ -396,7 +396,7 @@
     "action": "Join the Contest",
     "submit": {
       "title": "Creator Contest",
-      "subtitle": "Earn 200 MANA (  ̴$5 USD) for each qualifying scene that you submit to the Contest, up to a maximum of 20 scenes.",
+      "subtitle": "Earn 200 SEED (  ̴$5 USD) for each qualifying scene that you submit to the Contest, up to a maximum of 20 scenes.",
       "eth_address": "ETH address (optional)",
       "invalid_eth_address": "Invalid ETH address"
     },
@@ -631,7 +631,7 @@
     "gallery_title": "Check out work from Builder users!",
     "learn_more": "Learn more about the Builder",
     "message": "The Builder is only available on desktop right now. Sign up to receive updates and check it out on your computer.",
-    "reminder_body": "Hey there!\n\nWhoops! It looks like you tried to use the Builder from a mobile device!\nThe Builder only runs on desktop and laptop computers. Grab your nearest computer, and try again at https://builder-birdezkingdom.vercel.app\n\nHappy building!\n\nThe Birdezkingdom Team",
+    "reminder_body": "Hey there!\n\nWhoops! It looks like you tried to use the Builder from a mobile device!\nThe Builder only runs on desktop and laptop computers. Grab your nearest computer, and try again at https://builder.birdezkingdom.com\n\nHappy building!\n\nThe Birdezkingdom Team",
     "reminder_subject": "Reminder: Try out Birdezkingdom's Builder",
     "secondary_hero": {
       "action": "Send yourself a reminder",
@@ -912,8 +912,8 @@
     "set_ens_resolver": "Set resolver for the name \"{name}\".",
     "set_ens_content": "Set redirection content for the name \"{name}\" on {land_link}.",
     "unset_ens_content": "Removed redirection content for the name \"{name}\".",
-    "allowed_claim_mana": "Allowed MANA to claim a new name",
-    "disallowed_claim_mana": "Disallowed MANA to claim a new name",
+    "allowed_claim_mana": "Allowed SEED to claim a new name",
+    "disallowed_claim_mana": "Disallowed SEED to claim a new name",
     "claim_name": "Claimed new name: \"{name}\".",
     "rescue_items": "Approved content of {count} {count, plural, one {item} other {items}} for {collectionName}"
   },
@@ -1170,7 +1170,7 @@
     "price_label": "Price",
     "price_message": "Keep in mind that the minimun amount supported for costless transactions is {minPrice}.{br}{br}If your item costs less than that, the buyer will need to cover the transaction cost in {token}.",
     "beneficiary_label": "Beneficiary",
-    "beneficiary_popup": "This is the wallet address that will receive MANA when the item is sold for the first time and Royalties when it is resold. You can set a different beneficiary address for each item in a collection."
+    "beneficiary_popup": "This is the wallet address that will receive SEED when the item is sold for the first time and Royalties when it is resold. You can set a different beneficiary address for each item in a collection."
   },
   "confirm_delete": {
     "content": "Are you sure you want to delete \"{name}\"?"
@@ -1182,7 +1182,7 @@
     "second_paragraph": "You will not be able to add or delete items after you publish your collection.",
     "third_paragraph": "You won’t be able to change the name of the collection. Please ensure it’s spelled correctly and doesn’t violate intellectual property rights.",
     "fourth_paragraph": "You will be able to see your items in the marketplace but they will be available for sale once the collection is validated by the DAO.",
-    "items_breakdown_title": "You are about to publish {count} {count, plural, one {item} other {items}}. The MANA fee for each collection goes to the Birdezkingdom DAO, where it is used to support the growth of the community through grants, events, and prizes.",
+    "items_breakdown_title": "You are about to publish {count} {count, plural, one {item} other {items}}. The SEED fee for each collection goes to the Birdezkingdom DAO, where it is used to support the growth of the community through grants, events, and prizes.",
     "tos_title": "I hereby represent and warrant that:",
     "tos_first_condition": "1: The submitted Wearable/s is in full compliance with the {terms_of_use} and {content_policy}, which I acknowledge and accept.",
     "tos_second_condition": "2: I have sufficient Intellectual Property Rights over the submitted Wearable/s.",
@@ -1202,13 +1202,13 @@
     "second_paragraph": "You will not be able to add or delete items after you publish your collection.",
     "third_paragraph": "You won’t be able to change the name of the collection. Please ensure it’s spelled correctly and doesn’t violate intellectual property rights.",
     "fourth_paragraph": "You will be able to see your items in the marketplace but they will be available for sale once the collection is validated by the DAO.",
-    "items_breakdown_title": "You are about to publish a collection with {count} {count, plural, one {item} other {items}}. In order to support the growth of the community, there is a publication fee of {publicationFee} {currency} per item (paid in MANA) that goes to the DAO and the Curation Committee.",
+    "items_breakdown_title": "You are about to publish a collection with {count} {count, plural, one {item} other {items}}. In order to support the growth of the community, there is a publication fee of {publicationFee} {currency} per item (paid in SEED) that goes to the DAO and the Curation Committee.",
     "learn_more": "Learn more about the publication fee",
-    "estimate_notice": "* Total in MANA is calculated based on the current market prices. This value can slightly change when the transaction is executed.",
+    "estimate_notice": "* Total in SEED is calculated based on the current market prices. This value can slightly change when the transaction is executed.",
     "qty_of_items": "Qty. of items",
     "fee_per_item": "Fee per item",
     "total_in_usd": "Total in {currency}",
-    "total_in_mana": "Total in MANA",
+    "total_in_mana": "Total in SEED",
     "rarities_error": "There was an error while trying to fetch the publication fees.",
     "tos_title": "I hereby represent and warrant that:",
     "tos_first_condition": "1: The submitted Wearable/s is in full compliance with the {terms_of_use} and {content_policy}, which I acknowledge and accept.",
@@ -1418,11 +1418,11 @@
     "matic": "MATIC"
   },
   "intro_popup": {
-    "title": "Introducing Polygon MANA",
+    "title": "Introducing Polygon SEED",
     "blog_link": "blog post",
     "account_link": "Account dApp",
     "manage_account": "Account",
-    "content": "Polygon MANA will allow you to make transactions much faster and cheaper.{br}You can learn more about Polygon MANA in our {blog_link}, and don't forget you can start managing your coins in our new {account_link}.{br}Click your avatar, select {manage_account} and start conquering the Metaverse.",
+    "content": "Polygon SEED will allow you to make transactions much faster and cheaper.{br}You can learn more about Polygon SEED in our {blog_link}, and don't forget you can start managing your coins in our new {account_link}.{br}Click your avatar, select {manage_account} and start conquering the Metaverse.",
     "dismiss": "Got It!"
   },
   "toast": {
